@@ -20,7 +20,7 @@ fp-info-cache
 \#auto_saved_files#
 
 # backups
-SD04Proto-backups\
+SD04Proto\SD04Proto-backups\
 
 # Netlist files (exported from Eeschema)
 *.net
