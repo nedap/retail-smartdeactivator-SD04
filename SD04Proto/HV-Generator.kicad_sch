@@ -3107,12 +3107,6 @@
 		(uuid "e2e23216-bc38-41e5-9720-ea481d83f3c4")
 	)
 	(junction
-		(at 137.16 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6829b1d-d57d-4160-9976-7d4e86a0c1e3")
-	)
-	(junction
 		(at 66.04 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3143,6 +3137,16 @@
 			(type default)
 		)
 		(uuid "07eb2142-059b-4f50-b9fd-625facb8c080")
+	)
+	(wire
+		(pts
+			(xy 148.59 130.81) (xy 152.4 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e2872dc-5a62-47e7-ba46-6f5b34290e3d")
 	)
 	(wire
 		(pts
@@ -3526,6 +3530,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 128.27) (xy 148.59 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781a1822-83fd-4ae0-affb-89fd57b2d6b5")
+	)
+	(wire
+		(pts
 			(xy 72.39 119.38) (xy 69.85 119.38)
 		)
 		(stroke
@@ -3746,16 +3760,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 128.27) (xy 148.59 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c3c9bef-8ef5-4191-8571-5087fc1649d2")
-	)
-	(wire
-		(pts
 			(xy 166.37 44.45) (xy 172.72 44.45)
 		)
 		(stroke
@@ -3823,16 +3827,6 @@
 			(type default)
 		)
 		(uuid "af954461-08cc-42d7-8f4e-6566eb5ed35c")
-	)
-	(wire
-		(pts
-			(xy 148.59 142.24) (xy 137.16 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afd845d8-7d18-43c8-9dff-ddbaeb9bd6c2")
 	)
 	(wire
 		(pts
@@ -4173,6 +4167,16 @@
 			(justify left bottom)
 		)
 		(uuid "4f5fcb4d-8320-48bd-aed3-770aa13ea138")
+	)
+	(label "Boost_FB"
+		(at 152.4 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "642c4984-9666-467b-b648-ad7de214d995")
 	)
 	(label "12V_Filt"
 		(at 124.46 44.45 180)
