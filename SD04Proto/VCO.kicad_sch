@@ -5249,7 +5249,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:74AHC04PW,118")
-		(at 200.66 107.95 0)
+		(at 199.39 127 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5258,7 +5258,7 @@
 		(fields_autoplaced yes)
 		(uuid "83edceb3-7e3a-408b-a4b4-419e24a96703")
 		(property "Reference" "IC1"
-			(at 228.6 101.6 0)
+			(at 227.33 120.65 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5268,7 +5268,7 @@
 			)
 		)
 		(property "Value" "74AHC04PW,118"
-			(at 228.6 104.14 0)
+			(at 227.33 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5276,7 +5276,7 @@
 			)
 		)
 		(property "Footprint" "SOP65P640X110-14N"
-			(at 222.25 202.87 0)
+			(at 220.98 221.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5286,7 +5286,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf"
-			(at 222.25 302.87 0)
+			(at 220.98 321.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5296,7 +5296,7 @@
 			)
 		)
 		(property "Description" "74AHC(T)04 - hex inverter@en-us"
-			(at 200.66 107.95 0)
+			(at 199.39 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,7 +5305,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 222.25 502.87 0)
+			(at 220.98 521.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5315,7 +5315,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Nexperia"
-			(at 222.25 602.87 0)
+			(at 220.98 621.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5325,7 +5325,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "74AHC04PW,118"
-			(at 222.25 702.87 0)
+			(at 220.98 721.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5335,7 +5335,7 @@
 			)
 		)
 		(property "Mouser Part Number" "771-AHC04PW118"
-			(at 222.25 802.87 0)
+			(at 220.98 821.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5345,7 +5345,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74AHC04PW118?qs=P62ublwmbi%2FFq01vg0%252B6Ww%3D%3D"
-			(at 222.25 902.87 0)
+			(at 220.98 921.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,7 +5355,7 @@
 			)
 		)
 		(property "Arrow Part Number" "74AHC04PW,118"
-			(at 222.25 1002.87 0)
+			(at 220.98 1021.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5365,7 +5365,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/74ahc04pw118/nexperia?region=nac"
-			(at 222.25 1102.87 0)
+			(at 220.98 1121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5375,7 +5375,7 @@
 			)
 		)
 		(property "Nedap Part Number" ""
-			(at 200.66 107.95 0)
+			(at 199.39 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
