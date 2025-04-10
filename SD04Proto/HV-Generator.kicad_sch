@@ -1344,275 +1344,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:BAW56WT1G"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D2"
-				(at 24.13 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BAW56WT1G"
-				(at 24.13 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SOT65P220X100-3N"
-				(at 19.05 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BAW56WT1-D.PDF"
-				(at 19.05 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "S Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AEC-Q101 Qualified and PPAP Capable; These Devices are Pb-Free, Halogen Free/BFR Free and are RoHS Compliant"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Nedap Part Number" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1"
-				(at 19.05 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "onsemi"
-				(at 19.05 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "BAW56WT1G"
-				(at 19.05 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "863-BAW56WT1G"
-				(at 19.05 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/BAW56WT1G?qs=vLkC5FC1VN%2FwzTQqFK7CjQ%3D%3D"
-				(at 19.05 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "BAW56WT1G"
-				(at 19.05 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/baw56wt1g/on-semiconductor?region=nac"
-				(at 19.05 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "BAW56WT1G_1_1"
-				(polyline
-					(pts
-						(xy 20.32 0) (xy 30.48 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 -5.08) (xy 24.13 -2.54) (xy 25.4 -5.08) (xy 22.86 -5.08) (xy 22.86 -5.08) (xy 22.86 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 24.13 0) (xy 24.13 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 24.13 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 25.4 -2.54) (xy 22.86 -2.54) (xy 22.86 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 26.67 -1.27) (xy 26.67 1.27) (xy 26.67 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 29.21 -1.27) (xy 26.67 0) (xy 29.21 1.27) (xy 29.21 -1.27) (xy 29.21 -1.27) (xy 29.21 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 17.78 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 24.13 -7.62 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SamacSys_Parts:BSC12DN20NS3GATMA1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2770,6 +2501,211 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_BJT:BC847"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC847"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Small Signal Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC847_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC847_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -3035,6 +2971,12 @@
 		(uuid "4de3f97d-0a87-475e-a1c8-91f8ba11f451")
 	)
 	(junction
+		(at 39.37 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "586b0754-25ec-437c-9505-26fcc5d1ec08")
+	)
+	(junction
 		(at 139.7 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3045,6 +2987,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "703255d8-602e-40ff-9c63-3ccd32e58e22")
+	)
+	(junction
+		(at 30.48 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e48bf6b-43f6-43c8-97c2-88cb2243f604")
 	)
 	(junction
 		(at 44.45 43.18)
@@ -3136,13 +3084,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 121.92) (xy 45.72 124.46)
+			(xy 25.4 119.38) (xy 30.48 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07eb2142-059b-4f50-b9fd-625facb8c080")
+		(uuid "050c18f7-1851-4878-99b6-676abcc7f665")
 	)
 	(wire
 		(pts
@@ -3163,6 +3111,16 @@
 			(type default)
 		)
 		(uuid "17cdc888-4a76-4b22-a73a-b8aa41f0af9c")
+	)
+	(wire
+		(pts
+			(xy 30.48 130.81) (xy 30.48 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a7958e3-2a0f-4955-9fff-1bf13397f2c4")
 	)
 	(wire
 		(pts
@@ -3233,6 +3191,26 @@
 			(type default)
 		)
 		(uuid "235e8da6-8475-4bc9-9064-5fc25e5cd195")
+	)
+	(wire
+		(pts
+			(xy 39.37 124.46) (xy 39.37 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299ab695-6566-46a0-9ffa-627a23e5ce01")
+	)
+	(wire
+		(pts
+			(xy 30.48 119.38) (xy 31.75 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bef60bf-9ae4-46e9-ad9b-c95d6604c6ef")
 	)
 	(wire
 		(pts
@@ -3636,6 +3614,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 132.08) (xy 39.37 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820df71e-bed1-4d5a-9dd6-417e9471ec73")
+	)
+	(wire
+		(pts
 			(xy 116.84 102.87) (xy 118.11 102.87)
 		)
 		(stroke
@@ -3643,6 +3631,16 @@
 			(type default)
 		)
 		(uuid "834d8805-b11d-46a9-bf2b-a45a1e067378")
+	)
+	(wire
+		(pts
+			(xy 39.37 114.3) (xy 72.39 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a5e7ea-a43f-47ff-b38a-8f5efd957266")
 	)
 	(wire
 		(pts
@@ -3996,16 +3994,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 114.3) (xy 39.37 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d61242d8-c310-4aee-860f-27dd5767b154")
-	)
-	(wire
-		(pts
 			(xy 102.87 116.84) (xy 107.95 116.84)
 		)
 		(stroke
@@ -4116,13 +4104,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 114.3) (xy 72.39 114.3)
+			(xy 30.48 119.38) (xy 30.48 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eaadd21a-1e84-44d7-968b-77454de3adf2")
+		(uuid "ea625288-b8f7-47f7-8e9f-5aa69cf0a85b")
 	)
 	(wire
 		(pts
@@ -4236,7 +4224,7 @@
 	)
 	(hierarchical_label "DEACT"
 		(shape input)
-		(at 34.29 114.3 180)
+		(at 25.4 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4363,7 +4351,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3900K"
+		(property "Value" "1800K"
 			(at 151.13 125.7299 0)
 			(effects
 				(font
@@ -4958,6 +4946,77 @@
 			(project ""
 				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/c8d83030-9ea6-4891-bf22-f6898b1f7f26"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 30.48 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33e40829-e0ba-4848-a05e-3776bc1115cd")
+		(property "Reference" "R19"
+			(at 33.02 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 33.02 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 28.702 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 30.48 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b7bb216-89c6-4ab9-b161-be4e4a9e6831")
+		)
+		(pin "2"
+			(uuid "a599ebeb-2fac-4265-acc9-b2798d281bd2")
+		)
+		(instances
+			(project ""
+				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/c8d83030-9ea6-4891-bf22-f6898b1f7f26"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -5764,7 +5823,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 124.46 0)
+		(at 39.37 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5773,7 +5832,7 @@
 		(fields_autoplaced yes)
 		(uuid "5655d8cf-7c2f-433c-ba67-d6922cc888cc")
 		(property "Reference" "#PWR018"
-			(at 45.72 130.81 0)
+			(at 39.37 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5782,7 +5841,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 129.54 0)
+			(at 39.37 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5790,7 +5849,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 124.46 0)
+			(at 39.37 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5799,7 +5858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 124.46 0)
+			(at 39.37 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5808,7 +5867,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 124.46 0)
+			(at 39.37 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5957,6 +6016,82 @@
 			(project ""
 				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/c8d83030-9ea6-4891-bf22-f6898b1f7f26"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC847")
+		(at 36.83 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66c927f3-af34-4da0-82d1-4e310dbb9c1d")
+		(property "Reference" "Q4"
+			(at 41.91 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC847"
+			(at 41.91 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 41.91 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(at 36.83 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 36.83 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf70afb3-a79b-436d-ad4c-9e62d1c496a2")
+		)
+		(pin "3"
+			(uuid "7b394124-543c-46ef-b137-33eb37aa0c2a")
+		)
+		(pin "2"
+			(uuid "a6871fc6-c307-4eeb-b1e1-45aebe46a28b")
+		)
+		(instances
+			(project ""
+				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/c8d83030-9ea6-4891-bf22-f6898b1f7f26"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -8074,157 +8209,6 @@
 			(project ""
 				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/c8d83030-9ea6-4891-bf22-f6898b1f7f26"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:BAW56WT1G")
-		(at 21.59 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7b62d87-0685-4bdd-b793-bd15c1737f51")
-		(property "Reference" "D2"
-			(at 45.72 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAW56WT1G"
-			(at 45.72 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT65P220X100-3N"
-			(at 40.64 209.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BAW56WT1-D.PDF"
-			(at 40.64 309.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "S Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AEC-Q101 Qualified and PPAP Capable; These Devices are Pb-Free, Halogen Free/BFR Free and are RoHS Compliant"
-			(at 21.59 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 40.64 509.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at 40.64 609.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BAW56WT1G"
-			(at 40.64 709.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "863-BAW56WT1G"
-			(at 40.64 809.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/BAW56WT1G?qs=vLkC5FC1VN%2FwzTQqFK7CjQ%3D%3D"
-			(at 40.64 909.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "BAW56WT1G"
-			(at 40.64 1009.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/baw56wt1g/on-semiconductor?region=nac"
-			(at 40.64 1109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Nedap Part Number" ""
-			(at 21.59 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e1af38cc-b1fd-4f79-a1c4-89c312c270c3")
-		)
-		(pin "3"
-			(uuid "cba60231-02ac-40fc-b55e-3648ca7425d6")
-		)
-		(pin "1"
-			(uuid "e87375f1-9971-4550-b225-2ab0ec180dfa")
-		)
-		(instances
-			(project ""
-				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/c8d83030-9ea6-4891-bf22-f6898b1f7f26"
-					(reference "D2")
 					(unit 1)
 				)
 			)
