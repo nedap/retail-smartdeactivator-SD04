@@ -431,6 +431,14 @@
     [
       "c8d83030-9ea6-4891-bf22-f6898b1f7f26",
       "HV-Generator"
+    ],
+    [
+      "33d47bcc-c953-4082-8dd0-cd5a7c446f51",
+      "Microcontroller"
+    ],
+    [
+      "6dcfc107-39a7-4382-a82b-4a3b9ddee7cc",
+      "PowerSupp"
     ]
   ],
   "text_variables": {

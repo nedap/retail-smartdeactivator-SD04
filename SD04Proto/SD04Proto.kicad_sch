@@ -10,8 +10,130 @@
 		(company "Nedap N.V.")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 86.36 72.39) (xy 86.36 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "022803e2-741e-44ca-92f7-b61ba1fe0a56")
+	)
+	(wire
+		(pts
+			(xy 73.66 69.85) (xy 88.9 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d365988-3d01-4b97-be6b-3103901aa08a")
+	)
+	(wire
+		(pts
+			(xy 73.66 36.83) (xy 99.06 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4450ad3c-bf51-430c-a154-f8dc736ba899")
+	)
+	(wire
+		(pts
+			(xy 88.9 97.79) (xy 99.06 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ddd68bd-5343-4ca1-88a1-06c94f7f2e48")
+	)
+	(wire
+		(pts
+			(xy 86.36 100.33) (xy 99.06 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e3f99f-1d78-453a-b051-b87517672cea")
+	)
+	(wire
+		(pts
+			(xy 73.66 34.29) (xy 99.06 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b2ba32d-134b-4da8-a5f4-de4073fd4447")
+	)
+	(wire
+		(pts
+			(xy 73.66 72.39) (xy 86.36 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e6b4ec-1b02-4728-9d92-77df28e3af59")
+	)
+	(wire
+		(pts
+			(xy 88.9 69.85) (xy 88.9 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b76419fd-c2c8-44c4-bef6-44037900fd91")
+	)
 	(sheet
-		(at 48.26 30.48)
+		(at 26.67 95.25)
+		(size 48.26 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "33d47bcc-c953-4082-8dd0-cd5a7c446f51")
+		(property "Sheetname" "Microcontroller"
+			(at 26.67 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 26.67 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SD04Proto"
+				(path "/fe3c7568-b616-4bc2-af46-d300844257d8"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 27.94)
 		(size 59.69 53.34)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27,7 +149,7 @@
 		)
 		(uuid "56ac221f-60be-4bcb-8925-ee926f4e9075")
 		(property "Sheetname" "VCO"
-			(at 48.26 29.7684 0)
+			(at 99.06 27.2284 0)
 			(show_name yes)
 			(effects
 				(font
@@ -37,7 +159,7 @@
 			)
 		)
 		(property "Sheetfile" "VCO.kicad_sch"
-			(at 48.26 84.4046 0)
+			(at 99.06 81.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46,7 +168,7 @@
 			)
 		)
 		(pin "3V3" input
-			(at 48.26 36.83 180)
+			(at 99.06 34.29 180)
 			(uuid "59c7b060-3e00-43d8-b827-2db47571a190")
 			(effects
 				(font
@@ -55,18 +177,8 @@
 				(justify left)
 			)
 		)
-		(pin "Burst" input
-			(at 48.26 40.64 180)
-			(uuid "ea3e9242-5e43-4b32-b914-0a2d963e5fcf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "RF_1_OUT" output
-			(at 107.95 38.1 0)
+			(at 158.75 35.56 0)
 			(uuid "3a5274bb-dd32-45ed-9543-06b4d05d91b0")
 			(effects
 				(font
@@ -76,7 +188,7 @@
 			)
 		)
 		(pin "RF_2_OUT" output
-			(at 107.95 40.64 0)
+			(at 158.75 38.1 0)
 			(uuid "77f93969-f83b-45ac-a376-c3862abcf81e")
 			(effects
 				(font
@@ -85,19 +197,39 @@
 				(justify right)
 			)
 		)
-		(pin "VCO_FB" output
-			(at 107.95 45.72 0)
-			(uuid "1a14b5a2-8375-4143-b940-48ee41ce3312")
+		(pin "SCL" input
+			(at 99.06 40.64 180)
+			(uuid "e914e731-36bc-48a2-8ff7-9f836a65b048")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(pin "DAC" input
-			(at 48.26 44.45 180)
-			(uuid "18d8c246-8a9a-48c2-be9c-422631429634")
+		(pin "SDA" input
+			(at 99.06 43.18 180)
+			(uuid "9b9a8e43-5a4f-410d-9b75-7c2fa163ea4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "S0" input
+			(at 99.06 45.72 180)
+			(uuid "fb606717-b63d-4590-b57d-d802ac0172c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1V8" input
+			(at 99.06 36.83 180)
+			(uuid "b1888e84-3f02-4a13-bfd8-be03d25ecb9a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -114,7 +246,119 @@
 		)
 	)
 	(sheet
-		(at 48.26 100.33)
+		(at 26.67 27.94)
+		(size 46.99 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6dcfc107-39a7-4382-a82b-4a3b9ddee7cc")
+		(property "Sheetname" "PowerSupp"
+			(at 26.67 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerSupp.kicad_sch"
+			(at 26.67 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" output
+			(at 73.66 34.29 0)
+			(uuid "09fd7f19-90b6-411e-a72d-6e3890c711cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "8V" output
+			(at 73.66 72.39 0)
+			(uuid "a0e78c51-02d3-4dd9-9276-6d42f93e19cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12V_Filt" output
+			(at 73.66 69.85 0)
+			(uuid "05e35fd2-7f16-498d-91d1-02922c95aa8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN" input
+			(at 26.67 40.64 180)
+			(uuid "a60dc65d-68b7-41f6-877d-0f3d91412f3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "12V" input
+			(at 26.67 38.1 180)
+			(uuid "3427fc70-11d2-4d25-8f85-bb48ec71e6d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "0V" input
+			(at 26.67 35.56 180)
+			(uuid "0343aa09-c355-4ac3-8da6-38af7f005f13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1V8" output
+			(at 73.66 36.83 0)
+			(uuid "5ae7e6c6-da96-495b-9914-8551c0e9f3e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SD04Proto"
+				(path "/fe3c7568-b616-4bc2-af46-d300844257d8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 95.25)
 		(size 58.42 52.07)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -130,7 +374,7 @@
 		)
 		(uuid "c8d83030-9ea6-4891-bf22-f6898b1f7f26")
 		(property "Sheetname" "HV-Generator"
-			(at 48.26 99.6184 0)
+			(at 99.06 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -139,7 +383,7 @@
 			)
 		)
 		(property "Sheetfile" "HV-Generator.kicad_sch"
-			(at 48.26 152.9846 0)
+			(at 99.06 147.9046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -148,7 +392,7 @@
 			)
 		)
 		(pin "+20V" input
-			(at 48.26 109.22 180)
+			(at 99.06 104.14 180)
 			(uuid "ccf7cec9-fc2b-49ce-965a-385eedb2f2cf")
 			(effects
 				(font
@@ -158,7 +402,7 @@
 			)
 		)
 		(pin "+40V" input
-			(at 48.26 113.03 180)
+			(at 99.06 107.95 180)
 			(uuid "9129940f-7890-43cb-a3d4-0861258daef4")
 			(effects
 				(font
@@ -167,58 +411,8 @@
 				(justify left)
 			)
 		)
-		(pin "0V" input
-			(at 48.26 116.84 180)
-			(uuid "6ca2823b-7958-490c-9d87-013ca683d225")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "5V" output
-			(at 106.68 110.49 0)
-			(uuid "8e57bbf6-d1f0-4ba5-93d5-c0af49a5e7f6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "8V" output
-			(at 106.68 114.3 0)
-			(uuid "99939b7b-f15b-4d44-90b8-2a152f9f71d8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "12V" input
-			(at 48.26 120.65 180)
-			(uuid "077f5b31-252a-447e-b66d-963cf952d52f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "12V_Filt" output
-			(at 106.68 120.65 0)
-			(uuid "02151bbe-415b-428d-8922-94a8a14b8e4f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "DEACT" input
-			(at 48.26 125.73 180)
+			(at 99.06 120.65 180)
 			(uuid "be32fb0b-44e7-45a1-8989-188da325f16c")
 			(effects
 				(font
@@ -227,9 +421,19 @@
 				(justify left)
 			)
 		)
-		(pin "EN" input
-			(at 48.26 128.27 180)
-			(uuid "f5d80f10-431f-4b3f-ad64-c4ab063cadda")
+		(pin "V_PA" output
+			(at 157.48 125.73 0)
+			(uuid "4495b5e1-cc52-4e36-9802-301603754ef2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "8V" input
+			(at 99.06 100.33 180)
+			(uuid "ff823bd9-02a3-40d3-a35a-1b8a70fa3c69")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -237,14 +441,14 @@
 				(justify left)
 			)
 		)
-		(pin "V_PA" output
-			(at 106.68 130.81 0)
-			(uuid "4495b5e1-cc52-4e36-9802-301603754ef2")
+		(pin "12V_Filt" input
+			(at 99.06 97.79 180)
+			(uuid "8dd0d37d-5254-4064-bbc3-3fc33afb8b9a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
