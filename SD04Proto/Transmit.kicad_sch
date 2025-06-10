@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "996f7dd6-2e4a-4d7f-9c83-c860a4454129")
+	(paper "A4")
+	(title_block
+		(title "Smart Deactivator SD04 Proto")
+		(rev "0.01")
+	)
+	(lib_symbols)
+	(hierarchical_label "TX2"
+		(shape output)
+		(at 166.37 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20052794-6338-4200-b5eb-afc33a04198b")
+	)
+	(hierarchical_label "TX1"
+		(shape output)
+		(at 166.37 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30148a26-68cd-4e44-8302-c9989a1f4398")
+	)
+	(hierarchical_label "RF_in_1"
+		(shape input)
+		(at 46.99 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "580f44b6-5f09-447d-bb3a-f7688a8f7868")
+	)
+	(hierarchical_label "RF_In_2"
+		(shape input)
+		(at 46.99 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe1582a6-4139-40b9-9526-70b691b21693")
+	)
+)
