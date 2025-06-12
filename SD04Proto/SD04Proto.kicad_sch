@@ -358,6 +358,48 @@
 		)
 	)
 	(sheet
+		(at 184.15 95.25)
+		(size 44.45 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "915b459b-c554-47e0-bb3c-9ed2bf854fbd")
+		(property "Sheetname" "Transmit"
+			(at 184.15 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Transmit.kicad_sch"
+			(at 184.15 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SD04Proto"
+				(path "/fe3c7568-b616-4bc2-af46-d300844257d8"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 99.06 95.25)
 		(size 58.42 52.07)
 		(exclude_from_sim no)
@@ -455,6 +497,48 @@
 			(project "SD04Proto"
 				(path "/fe3c7568-b616-4bc2-af46-d300844257d8"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 27.94)
+		(size 44.45 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d68f56d2-6aae-4051-8531-5aac3cbe7ddb")
+		(property "Sheetname" "Receive"
+			(at 184.15 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Receive.kicad_sch"
+			(at 184.15 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SD04Proto"
+				(path "/fe3c7568-b616-4bc2-af46-d300844257d8"
+					(page "6")
 				)
 			)
 		)

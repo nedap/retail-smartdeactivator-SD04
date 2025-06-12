@@ -1,0 +1,12 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e142b0a2-8724-4cc7-afc3-db2fc19055e1")
+	(paper "A4")
+	(title_block
+		(title "Smart Deactivator SD04 Proto")
+		(rev "0.01")
+	)
+	(lib_symbols)
+)
