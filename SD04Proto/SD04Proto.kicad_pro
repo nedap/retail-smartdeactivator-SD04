@@ -277,7 +277,11 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "unconnected-(IC3-(SCK)_PB1-Pad11)": [
+        "RS485_en"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
