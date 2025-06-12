@@ -477,11 +477,7 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "unconnected-(IC3-(SCK)_PB1-Pad11)": [
-        "RS485_en"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -651,6 +647,10 @@
     [
       "915b459b-c554-47e0-bb3c-9ed2bf854fbd",
       "Transmit"
+    ],
+    [
+      "0528cb3f-f35b-4d6c-8c0f-f3deb1b00fa1",
+      "Extern-Input"
     ]
   ],
   "text_variables": {

@@ -91,6 +91,128 @@
 		(uuid "b76419fd-c2c8-44c4-bef6-44037900fd91")
 	)
 	(sheet
+		(at 26.67 162.56)
+		(size 48.26 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0528cb3f-f35b-4d6c-8c0f-f3deb1b00fa1")
+		(property "Sheetname" "Extern-Input"
+			(at 26.67 161.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Extern-Input.kicad_sch"
+			(at 26.67 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "0V" input
+			(at 74.93 173.99 0)
+			(uuid "13145120-eee7-42ec-a7f5-b4b5d0f1396e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" input
+			(at 74.93 176.53 0)
+			(uuid "345b2131-3d9e-4f82-aa94-a8ca8281826f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCK_RS485_EN" bidirectional
+			(at 46.99 162.56 90)
+			(uuid "edff3c9a-355a-49f2-ae77-244656010ccc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_Rx" bidirectional
+			(at 44.45 162.56 90)
+			(uuid "7354cb94-3f66-482a-83ce-ad7b008b3ccc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_Tx" bidirectional
+			(at 41.91 162.56 90)
+			(uuid "44eb2580-95bb-4567-9e04-5e67f0314889")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12V" input
+			(at 74.93 179.07 0)
+			(uuid "287f33a4-346a-4ce9-9417-a6663b4ad3a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS485R_A" bidirectional
+			(at 59.69 162.56 90)
+			(uuid "d86ae633-23df-4176-aa4e-a9ced1ec2a22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS485R_B" bidirectional
+			(at 62.23 162.56 90)
+			(uuid "5daab0c5-8d45-4136-b21a-15c2289bef12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SD04Proto"
+				(path "/fe3c7568-b616-4bc2-af46-d300844257d8"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 26.67 95.25)
 		(size 48.26 53.34)
 		(exclude_from_sim no)

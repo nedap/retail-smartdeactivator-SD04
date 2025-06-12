@@ -1261,131 +1261,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -1718,6 +1593,12 @@
 		(uuid "9a530cb3-489b-4538-8ef0-03c0f58988fd")
 	)
 	(junction
+		(at 67.31 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c7ae5db-05df-4730-970f-09e91ab0f593")
+	)
+	(junction
 		(at 81.28 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1734,12 +1615,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce1bd226-967a-4e96-8643-fb0db494f033")
-	)
-	(junction
-		(at 67.31 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ddf4422d-0230-4608-a6ea-daedfe4bd85a")
 	)
 	(junction
 		(at 43.18 43.18)
@@ -1815,7 +1690,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 41.91) (xy 67.31 43.18)
+			(xy 67.31 43.18) (xy 67.31 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1995,6 +1870,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 43.18) (xy 81.28 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fd0fd89-68c9-4f9a-92fa-5c275d99fdc2")
+	)
+	(wire
+		(pts
 			(xy 123.19 44.45) (xy 127 44.45)
 		)
 		(stroke
@@ -2005,7 +1890,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 43.18) (xy 81.28 43.18)
+			(xy 60.96 43.18) (xy 67.31 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2105,16 +1990,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 43.18) (xy 67.31 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4938ac5-faab-47c1-954b-14e66f4c2475")
-	)
-	(wire
-		(pts
 			(xy 167.64 116.84) (xy 173.99 116.84)
 		)
 		(stroke
@@ -2142,16 +2017,6 @@
 			(type default)
 		)
 		(uuid "ce06e9bc-0ca5-4cb3-b1a6-b2f80459faf6")
-	)
-	(wire
-		(pts
-			(xy 67.31 43.18) (xy 67.31 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf14ac12-ce92-480d-a952-061d5b5aaf6d")
 	)
 	(wire
 		(pts
@@ -2621,72 +2486,6 @@
 			(project ""
 				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/6dcfc107-39a7-4382-a82b-4a3b9ddee7cc"
 					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 67.31 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1077987a-2006-4aa6-aab6-c129fce545ed")
-		(property "Reference" "#PWR040"
-			(at 67.31 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 67.31 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 67.31 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86513d41-1ba3-40d0-8995-faa291c2c340")
-		)
-		(instances
-			(project ""
-				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/6dcfc107-39a7-4382-a82b-4a3b9ddee7cc"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)
