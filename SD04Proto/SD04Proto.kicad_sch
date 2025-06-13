@@ -10,6 +10,24 @@
 		(company "Nedap N.V.")
 	)
 	(lib_symbols)
+	(junction
+		(at 78.74 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f540ced-a317-4b91-b446-46c5b6e57f21")
+	)
+	(junction
+		(at 78.74 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4db922f7-c868-4919-a7c4-9981dcfaad85")
+	)
+	(junction
+		(at 81.28 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae0f2e58-3d8a-4dc2-ae4f-dddcee478766")
+	)
 	(wire
 		(pts
 			(xy 86.36 72.39) (xy 86.36 100.33)
@@ -22,13 +40,63 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 69.85) (xy 88.9 69.85)
+			(xy 78.74 34.29) (xy 99.06 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f619d8-9422-4fe6-a9d8-260239495eb4")
+	)
+	(wire
+		(pts
+			(xy 33.02 148.59) (xy 33.02 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "092551d3-9611-407b-bd9d-089a5501d146")
+	)
+	(wire
+		(pts
+			(xy 68.58 148.59) (xy 68.58 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34b6a409-404f-4d25-acc8-ce8e37e6ab63")
+	)
+	(wire
+		(pts
+			(xy 45.72 148.59) (xy 45.72 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37aee384-f448-4348-b4c0-a3567b241493")
+	)
+	(wire
+		(pts
+			(xy 73.66 69.85) (xy 81.28 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3d365988-3d01-4b97-be6b-3103901aa08a")
+	)
+	(wire
+		(pts
+			(xy 17.78 181.61) (xy 17.78 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4071bd46-eeae-471c-9dea-d3326e3594ff")
 	)
 	(wire
 		(pts
@@ -42,6 +110,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 148.59) (xy 55.88 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b892cbe-740a-4325-8c92-c4ba0bade3f3")
+	)
+	(wire
+		(pts
 			(xy 88.9 97.79) (xy 99.06 97.79)
 		)
 		(stroke
@@ -49,6 +127,26 @@
 			(type default)
 		)
 		(uuid "4ddd68bd-5343-4ca1-88a1-06c94f7f2e48")
+	)
+	(wire
+		(pts
+			(xy 35.56 148.59) (xy 35.56 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "503c622b-58cd-49dc-b874-319026d67444")
+	)
+	(wire
+		(pts
+			(xy 66.04 148.59) (xy 66.04 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab0caa6-6c75-4b2a-ac09-502c86ce4758")
 	)
 	(wire
 		(pts
@@ -62,7 +160,47 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 34.29) (xy 99.06 34.29)
+			(xy 60.96 148.59) (xy 60.96 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd7eefc-61a5-4390-bbc6-19ef4f090691")
+	)
+	(wire
+		(pts
+			(xy 81.28 69.85) (xy 88.9 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e3b71e6-0f92-4cad-97ac-30faafeab16b")
+	)
+	(wire
+		(pts
+			(xy 74.93 127) (xy 78.74 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f73a5cf-ed84-4055-83e4-a7eaf220eb90")
+	)
+	(wire
+		(pts
+			(xy 50.8 148.59) (xy 50.8 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88756a2b-eee3-4362-94a2-e323898d6f1d")
+	)
+	(wire
+		(pts
+			(xy 73.66 34.29) (xy 78.74 34.29)
 		)
 		(stroke
 			(width 0)
@@ -82,6 +220,76 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 124.46) (xy 99.06 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "939ed495-fa44-434e-9eb6-dccbf4d86e4e")
+	)
+	(wire
+		(pts
+			(xy 38.1 148.59) (xy 38.1 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "966fb129-18fb-4833-b41d-91c45bb40b49")
+	)
+	(wire
+		(pts
+			(xy 19.05 176.53) (xy 19.05 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b7ed022-5698-45c9-bbb3-3c85149a8503")
+	)
+	(wire
+		(pts
+			(xy 63.5 148.59) (xy 63.5 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae4a26d0-151d-40cf-84f1-695196f7d871")
+	)
+	(wire
+		(pts
+			(xy 76.2 179.07) (xy 78.74 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae57cbed-b3d2-46d9-9192-a3f79b118384")
+	)
+	(wire
+		(pts
+			(xy 76.2 182.88) (xy 81.28 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2681cfa-a3c5-43c5-8332-a1b7d314647a")
+	)
+	(wire
+		(pts
+			(xy 48.26 148.59) (xy 48.26 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b747e3f3-7402-4ed9-bb9b-d7eab7ce4800")
+	)
+	(wire
+		(pts
 			(xy 88.9 69.85) (xy 88.9 97.79)
 		)
 		(stroke
@@ -90,14 +298,103 @@
 		)
 		(uuid "b76419fd-c2c8-44c4-bef6-44037900fd91")
 	)
+	(wire
+		(pts
+			(xy 78.74 127) (xy 78.74 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd9233d9-e144-4225-8e59-e89fdc545632")
+	)
+	(wire
+		(pts
+			(xy 19.05 35.56) (xy 26.67 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ef4eb0-59f8-40b1-b4eb-f22a605c0beb")
+	)
+	(wire
+		(pts
+			(xy 40.64 148.59) (xy 40.64 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d79a2e53-5fc3-45cc-95fb-262a93ade953")
+	)
+	(wire
+		(pts
+			(xy 58.42 148.59) (xy 58.42 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1ed956d-e701-490f-ab4b-310789571b34")
+	)
+	(wire
+		(pts
+			(xy 81.28 182.88) (xy 81.28 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece3d3cd-cc9c-4c76-ae8c-71fb637f9378")
+	)
+	(wire
+		(pts
+			(xy 27.94 176.53) (xy 19.05 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f09858c1-690c-44a9-b88a-d469ac162a3d")
+	)
+	(wire
+		(pts
+			(xy 17.78 38.1) (xy 26.67 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f992bcef-f79d-46ba-8556-81030fe3b7df")
+	)
+	(wire
+		(pts
+			(xy 78.74 179.07) (xy 78.74 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9afc71d-a2eb-48eb-9e75-a1b93dae145a")
+	)
+	(wire
+		(pts
+			(xy 27.94 181.61) (xy 17.78 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff9f2c46-0d80-4c67-b8af-1a21017624ef")
+	)
 	(sheet
-		(at 26.67 162.56)
+		(at 27.94 162.56)
 		(size 48.26 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -107,7 +404,7 @@
 		)
 		(uuid "0528cb3f-f35b-4d6c-8c0f-f3deb1b00fa1")
 		(property "Sheetname" "Extern-Input"
-			(at 26.67 161.8484 0)
+			(at 27.94 187.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -116,7 +413,7 @@
 			)
 		)
 		(property "Sheetfile" "Extern-Input.kicad_sch"
-			(at 26.67 188.5446 0)
+			(at 27.94 188.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -125,17 +422,17 @@
 			)
 		)
 		(pin "0V" input
-			(at 74.93 173.99 0)
+			(at 27.94 176.53 180)
 			(uuid "13145120-eee7-42ec-a7f5-b4b5d0f1396e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "3V3" input
-			(at 74.93 176.53 0)
+			(at 76.2 179.07 0)
 			(uuid "345b2131-3d9e-4f82-aa94-a8ca8281826f")
 			(effects
 				(font
@@ -145,7 +442,7 @@
 			)
 		)
 		(pin "SCK_RS485_EN" bidirectional
-			(at 46.99 162.56 90)
+			(at 45.72 162.56 90)
 			(uuid "edff3c9a-355a-49f2-ae77-244656010ccc")
 			(effects
 				(font
@@ -155,7 +452,7 @@
 			)
 		)
 		(pin "UART_Rx" bidirectional
-			(at 44.45 162.56 90)
+			(at 48.26 162.56 90)
 			(uuid "7354cb94-3f66-482a-83ce-ad7b008b3ccc")
 			(effects
 				(font
@@ -165,7 +462,7 @@
 			)
 		)
 		(pin "UART_Tx" bidirectional
-			(at 41.91 162.56 90)
+			(at 50.8 162.56 90)
 			(uuid "44eb2580-95bb-4567-9e04-5e67f0314889")
 			(effects
 				(font
@@ -175,17 +472,17 @@
 			)
 		)
 		(pin "12V" input
-			(at 74.93 179.07 0)
+			(at 27.94 181.61 180)
 			(uuid "287f33a4-346a-4ce9-9417-a6663b4ad3a7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "RS485R_A" bidirectional
-			(at 59.69 162.56 90)
+			(at 60.96 162.56 90)
 			(uuid "d86ae633-23df-4176-aa4e-a9ced1ec2a22")
 			(effects
 				(font
@@ -195,8 +492,98 @@
 			)
 		)
 		(pin "RS485R_B" bidirectional
-			(at 62.23 162.56 90)
+			(at 63.5 162.56 90)
 			(uuid "5daab0c5-8d45-4136-b21a-15c2289bef12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12V_Filt" input
+			(at 76.2 182.88 0)
+			(uuid "12a753a3-da74-4b18-b4cc-ab1f9862d1e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Buzzer_frequency" input
+			(at 55.88 162.56 90)
+			(uuid "e7f9fbfa-5ad1-47cd-a4ae-ab3781b9c8c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Buzzer_switch" output
+			(at 68.58 162.56 90)
+			(uuid "3f089224-be89-456e-aba5-78541f5e643f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Buzzer_volume" input
+			(at 58.42 162.56 90)
+			(uuid "e5e78688-55b6-4ace-895a-0112ff592d79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Detect_only" output
+			(at 66.04 162.56 90)
+			(uuid "ca728e63-4273-456a-88b5-7e7a7066cf7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Yellow_Led" input
+			(at 33.02 162.56 90)
+			(uuid "2747a8a7-0c12-4b85-b19d-66df27746475")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Orange_LED" output
+			(at 35.56 162.56 90)
+			(uuid "2ae3831e-19dd-421a-baf2-c3e19b943ed0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Green_LED" output
+			(at 38.1 162.56 90)
+			(uuid "35dd9dc6-6542-4a2b-ab8e-2cb0cbf663e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Red_LED" input
+			(at 40.64 162.56 90)
+			(uuid "47017819-6481-472f-823f-69dbc01d8992")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -219,7 +606,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -238,12 +624,162 @@
 			)
 		)
 		(property "Sheetfile" "Microcontroller.kicad_sch"
-			(at 26.67 149.1746 0)
+			(at 26.924 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "UART_Rx" bidirectional
+			(at 48.26 148.59 270)
+			(uuid "93477c70-eb71-4bc4-a0e3-d34f1fbfdc6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS485R_A" bidirectional
+			(at 60.96 148.59 270)
+			(uuid "47baa254-e80e-404a-85a8-f32309bc05d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK_RS485_EN" bidirectional
+			(at 45.72 148.59 270)
+			(uuid "f89ff61a-9cff-467b-a904-152dccc58ec8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS485R_B" bidirectional
+			(at 63.5 148.59 270)
+			(uuid "6a188021-f902-4bea-90d3-956d1adc936d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3" input
+			(at 74.93 127 0)
+			(uuid "37a08af0-22b9-4caf-b18e-812d1bde9615")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_Tx" bidirectional
+			(at 50.8 148.59 270)
+			(uuid "4d854fa7-7c9d-441e-8d6a-cd7d59e314c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Buzzer_frequency" input
+			(at 55.88 148.59 270)
+			(uuid "e935590b-0c0c-4c98-ac91-d306512a4de1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Buzzer_volume" input
+			(at 58.42 148.59 270)
+			(uuid "3961a327-a1ae-4800-97e8-b3cc7808fb0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Orange_LED" output
+			(at 35.56 148.59 270)
+			(uuid "42d87730-2d64-43c6-97d7-79abe39893eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Red_LED" output
+			(at 40.64 148.59 270)
+			(uuid "1cf60984-d796-4fd0-87ec-48c5a3c3629f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Green_LED" output
+			(at 38.1 148.59 270)
+			(uuid "783019ec-11fa-4bdd-8a01-b32260c7d043")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Yellow_LED" output
+			(at 33.02 148.59 270)
+			(uuid "10e8d344-0b5d-439f-a353-00c1f3e3d4f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Detect_only" input
+			(at 66.04 148.59 270)
+			(uuid "85727726-5d88-4bf8-b6d3-604bf6e9196c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Buzzer_switch" input
+			(at 68.58 148.59 270)
+			(uuid "3a665769-981b-4b03-8c3d-ca80eb8dd270")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Deact" output
+			(at 74.93 124.46 0)
+			(uuid "595bd4ff-05e7-4f1e-ac15-de6e6ba40403")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -575,8 +1111,8 @@
 				(justify left)
 			)
 		)
-		(pin "DEACT" input
-			(at 99.06 120.65 180)
+		(pin "Deact" input
+			(at 99.06 124.46 180)
 			(uuid "be32fb0b-44e7-45a1-8989-188da325f16c")
 			(effects
 				(font

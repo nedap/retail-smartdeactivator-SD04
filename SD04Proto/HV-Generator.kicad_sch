@@ -3675,7 +3675,7 @@
 		)
 		(uuid "3aded58f-ca5f-42e1-980f-e9a17d92f538")
 	)
-	(hierarchical_label "DEACT"
+	(hierarchical_label "Deact"
 		(shape input)
 		(at 26.67 99.06 180)
 		(effects
@@ -3686,7 +3686,7 @@
 		)
 		(uuid "52992068-0c20-442d-92a4-530a81138486")
 	)
-	(hierarchical_label "DEACT"
+	(hierarchical_label "Deact"
 		(shape input)
 		(at 135.89 52.07 180)
 		(effects
