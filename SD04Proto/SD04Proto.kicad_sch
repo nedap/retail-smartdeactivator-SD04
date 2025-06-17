@@ -1049,6 +1049,16 @@
 				(justify left top)
 			)
 		)
+		(pin "RF_In_2" input
+			(at 220.98 95.25 90)
+			(uuid "f02d98a4-6762-48b0-8df9-301c5f577c99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "SD04Proto"
 				(path "/fe3c7568-b616-4bc2-af46-d300844257d8"

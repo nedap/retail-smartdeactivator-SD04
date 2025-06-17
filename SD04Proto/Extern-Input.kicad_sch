@@ -6277,7 +6277,7 @@
 		)
 		(uuid "a30ecc6a-306e-42a7-8df0-012f3ef0629f")
 	)
-	(label "Red_LED"
+	(label "Red_LED_output"
 		(at 101.6 81.28 0)
 		(effects
 			(font
@@ -6307,7 +6307,7 @@
 		)
 		(uuid "d77c7658-54d5-4fe4-904d-f76bdfeb03ec")
 	)
-	(label "Red_LED"
+	(label "Red_LED_output"
 		(at 245.11 39.37 180)
 		(effects
 			(font

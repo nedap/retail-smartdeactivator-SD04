@@ -546,509 +546,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EXBD10C103J_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RN"
-				(at 19.05 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "EXBD10C103J"
-				(at 19.05 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "EXBD10C103J"
-				(at 19.05 -89.84 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C12.pdf"
-				(at 19.05 -189.84 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Panasonic, EXBD 10k +/-5% Bussed SMT Resistor Network, 8 Resistors, 1206 (3216M), Concave"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.65"
-				(at 19.05 -389.84 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Panasonic"
-				(at 19.05 -489.84 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "EXBD10C103J"
-				(at 19.05 -589.84 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 19.05 -689.84 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 19.05 -789.84 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 19.05 -889.84 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 19.05 -989.84 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "EXBD10C103J_1_0_1"
-				(rectangle
-					(start 1.905 1.27)
-					(end 3.175 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 4.445 1.27)
-					(end 5.715 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.27) (xy 5.08 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 6.985 1.27)
-					(end 8.255 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 1.27) (xy 7.62 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 9.525 1.27)
-					(end 10.795 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 1.27) (xy 10.16 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 12.065 1.27)
-					(end 13.335 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 1.27) (xy 12.7 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 14.605 1.27)
-					(end 15.875 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 1.27) (xy 15.24 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 17.145 1.27)
-					(end 18.415 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 1.27) (xy 17.78 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 19.685 1.27)
-					(end 20.955 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 1.27) (xy 20.32 1.905) (xy 2.54 1.905) (xy 2.54 1.27) (xy 2.54 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "EXBD10C103J_1_1_1"
-				(polyline
-					(pts
-						(xy 10.16 2.54) (xy 10.16 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 12.7 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 5.08 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 5.08 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SamacSys_Parts:71308-5410"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1467,6 +964,550 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:74HC132D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at -7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "74HC132D"
+				(at -7.62 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOIC127P600X175-14N"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-NXP/DSANXP010001049.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "74HC132D, Logic Gate Quad 2 Input NAND, HC, 5.2mA 2 to 6V 14-Pin SOIC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Nexperia"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "74HC132D"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "771-74HC132D"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC132D?qs=KBAwV6Cvgt1iOKY5zPSQTg%3D%3D"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 21.59 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 21.59 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74HC132D_1_1"
+				(arc
+					(start 10.795 3.175)
+					(mid 13.97 0)
+					(end 10.795 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.795 -3.175) (xy 7.62 -3.175) (xy 7.62 3.175) (xy 10.795 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 14.605 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 5.08 1.27 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 -1.27 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC132D_2_1"
+				(arc
+					(start 8.255 3.175)
+					(mid 11.43 0)
+					(end 8.255 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 -3.175) (xy 5.08 -3.175) (xy 5.08 3.175) (xy 8.255 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 12.065 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 2.54 1.27 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -1.27 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC132D_3_1"
+				(arc
+					(start 9.525 3.175)
+					(mid 12.7 0)
+					(end 9.525 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -3.175) (xy 6.35 -3.175) (xy 6.35 3.175) (xy 9.525 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 13.335 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 3.81 1.27 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -1.27 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 0 180)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC132D_4_1"
+				(arc
+					(start 9.525 3.175)
+					(mid 12.7 0)
+					(end 9.525 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -3.175) (xy 6.35 -3.175) (xy 6.35 3.175) (xy 9.525 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 13.335 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 3.81 1.27 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -1.27 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 0 180)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC132D_5_1"
+				(rectangle
+					(start 4.445 4.445)
+					(end 8.255 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 6.35 6.985 270)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2745,24 +2786,529 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:EXBD10C103J"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN"
+				(at 19.05 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "EXBD10C103J"
+				(at 19.05 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "EXBD10C103J"
+				(at 19.05 -89.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C12.pdf"
+				(at 19.05 -189.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Panasonic, EXBD 10k +/-5% Bussed SMT Resistor Network, 8 Resistors, 1206 (3216M), Concave"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.65"
+				(at 19.05 -389.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Panasonic"
+				(at 19.05 -489.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "EXBD10C103J"
+				(at 19.05 -589.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 19.05 -689.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 19.05 -789.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 19.05 -889.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 19.05 -989.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "EXBD10C103J_0_1"
+				(rectangle
+					(start 1.905 1.27)
+					(end 3.175 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 4.445 1.27)
+					(end 5.715 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.27) (xy 5.08 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 6.985 1.27)
+					(end 8.255 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 1.27) (xy 7.62 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 9.525 1.27)
+					(end 10.795 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 1.27) (xy 10.16 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 12.065 1.27)
+					(end 13.335 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 1.27) (xy 12.7 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 14.605 1.27)
+					(end 15.875 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 1.27) (xy 15.24 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 17.145 1.27)
+					(end 18.415 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 1.27) (xy 17.78 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 19.685 1.27)
+					(end 20.955 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 1.27) (xy 20.32 1.905) (xy 2.54 1.905) (xy 2.54 1.27) (xy 2.54 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "EXBD10C103J_1_1"
+				(polyline
+					(pts
+						(xy 10.16 2.54) (xy 10.16 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 12.7 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SamacSys_Parts:MCNDA-08V"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "S1"
-				(at 15.24 7.62 0)
+			(property "Reference" "S"
+				(at 26.67 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Value" "MCNDA-08V"
-				(at 15.24 5.08 0)
+				(at 26.67 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Footprint" "MCNDA08V"
@@ -2864,241 +3410,29 @@
 					(hide yes)
 				)
 			)
-			(symbol "MCNDA-08V_0_1"
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 13.335 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 13.335 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -5.08) (xy 13.335 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 13.335 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -10.16) (xy 13.335 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -12.7) (xy 13.335 -12.7)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -15.24) (xy 13.335 -15.24)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -17.78) (xy 13.335 -17.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 25.4 0) (xy 16.51 0) (xy 13.97 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 25.4 -2.54) (xy 16.51 -2.54) (xy 13.97 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 25.4 -5.08) (xy 16.51 -5.08) (xy 13.97 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 25.4 -7.62) (xy 16.51 -7.62) (xy 13.97 -5.715)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 25.4 -10.16) (xy 16.51 -10.16) (xy 13.97 -8.255)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 25.4 -12.7) (xy 16.51 -12.7) (xy 13.97 -10.795)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 25.4 -15.24) (xy 16.51 -15.24) (xy 13.97 -13.335)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 25.4 -17.78) (xy 16.51 -17.78) (xy 13.97 -15.875)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
 			(symbol "MCNDA-08V_1_1"
 				(rectangle
-					(start 8.255 2.54)
-					(end 21.59 -20.32)
+					(start 5.08 2.54)
+					(end 25.4 -20.32)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin passive line
-					(at 2.54 0 0)
+					(at 0 0 0)
 					(length 5.08)
-					(name ""
+					(name "COM_1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
+					(number "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3107,16 +3441,16 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 0)
+					(at 0 -2.54 0)
 					(length 5.08)
-					(name ""
+					(name "COM_2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3125,16 +3459,16 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -7.62 0)
+					(at 0 -5.08 0)
 					(length 5.08)
-					(name ""
+					(name "COM_3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "A3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3143,16 +3477,16 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -10.16 0)
+					(at 0 -7.62 0)
 					(length 5.08)
-					(name ""
+					(name "COM_4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "A4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3161,16 +3495,16 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -12.7 0)
+					(at 0 -10.16 0)
 					(length 5.08)
-					(name ""
+					(name "COM_5"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "12"
+					(number "A5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3179,16 +3513,16 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -15.24 0)
+					(at 0 -12.7 0)
 					(length 5.08)
-					(name ""
+					(name "COM_6"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "A6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3197,16 +3531,16 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -17.78 0)
+					(at 0 -15.24 0)
 					(length 5.08)
-					(name ""
+					(name "COM_7"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "16"
+					(number "A7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3215,16 +3549,16 @@
 					)
 				)
 				(pin passive line
-					(at 26.035 0 180)
+					(at 0 -17.78 0)
 					(length 5.08)
-					(name ""
+					(name "COM_8"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "A8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3233,16 +3567,16 @@
 					)
 				)
 				(pin passive line
-					(at 26.035 -2.54 180)
+					(at 30.48 0 180)
 					(length 5.08)
-					(name ""
+					(name "NO_1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "B1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3251,16 +3585,16 @@
 					)
 				)
 				(pin passive line
-					(at 26.035 -5.08 180)
+					(at 30.48 -2.54 180)
 					(length 5.08)
-					(name ""
+					(name "NO_2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "B2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3269,16 +3603,16 @@
 					)
 				)
 				(pin passive line
-					(at 26.035 -7.62 180)
+					(at 30.48 -5.08 180)
 					(length 5.08)
-					(name ""
+					(name "NO_3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "B3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3287,16 +3621,16 @@
 					)
 				)
 				(pin passive line
-					(at 26.035 -10.16 180)
+					(at 30.48 -7.62 180)
 					(length 5.08)
-					(name ""
+					(name "NO_4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "B4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3305,16 +3639,16 @@
 					)
 				)
 				(pin passive line
-					(at 26.035 -12.7 180)
+					(at 30.48 -10.16 180)
 					(length 5.08)
-					(name ""
+					(name "NO_5"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "11"
+					(number "B5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3323,16 +3657,16 @@
 					)
 				)
 				(pin passive line
-					(at 26.035 -15.24 180)
+					(at 30.48 -12.7 180)
 					(length 5.08)
-					(name ""
+					(name "NO_6"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "13"
+					(number "B6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3341,16 +3675,34 @@
 					)
 				)
 				(pin passive line
-					(at 26.035 -17.78 180)
+					(at 30.48 -15.24 180)
 					(length 5.08)
-					(name ""
+					(name "NO_7"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "15"
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -17.78 180)
+					(length 5.08)
+					(name "NO_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3488,6 +3840,12 @@
 		(uuid "10fb51d3-e52e-4cf6-8823-c984287bad16")
 	)
 	(junction
+		(at 146.05 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "177f777b-4b65-4358-8721-a9176ad8320c")
+	)
+	(junction
 		(at 246.38 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3506,6 +3864,12 @@
 		(uuid "339edca5-2fac-4aae-86dc-e71d20de0680")
 	)
 	(junction
+		(at 146.05 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4609b2c2-884e-4045-815d-c1c962ab7898")
+	)
+	(junction
 		(at 246.38 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3516,6 +3880,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4aca19f1-6dc2-49ae-b0b9-92778ba9a819")
+	)
+	(junction
+		(at 130.81 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "537cbabd-4f67-4ea7-8860-10ad8ee022a1")
 	)
 	(junction
 		(at 199.39 46.99)
@@ -3534,6 +3904,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67521773-e2f8-438a-9bb6-c0fdb9718f98")
+	)
+	(junction
+		(at 130.81 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "809d2989-7800-49da-ac06-37c1e0c6ca89")
 	)
 	(junction
 		(at 30.48 35.56)
@@ -3566,6 +3942,12 @@
 		(uuid "b9155703-8318-43dc-bdd1-f3a24c89793b")
 	)
 	(junction
+		(at 149.86 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba4c63ee-1d3a-46f9-aec6-c758614bd95f")
+	)
+	(junction
 		(at 184.15 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3586,6 +3968,16 @@
 			(type default)
 		)
 		(uuid "006d26f3-05a2-44cf-81e2-4716901ea965")
+	)
+	(wire
+		(pts
+			(xy 149.86 167.64) (xy 149.86 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03520970-d1c4-48ed-92fd-00b527f5d10f")
 	)
 	(wire
 		(pts
@@ -3656,6 +4048,16 @@
 			(type default)
 		)
 		(uuid "18aded03-405a-4554-877e-25726519391f")
+	)
+	(wire
+		(pts
+			(xy 146.05 177.8) (xy 153.67 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f4e9bf9-337b-4afe-96a2-9532556bb2c0")
 	)
 	(wire
 		(pts
@@ -3799,6 +4201,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 92.71) (xy 119.38 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57ab64b6-bcef-482c-93bb-6e66302c4cd0")
+	)
+	(wire
+		(pts
 			(xy 187.96 80.01) (xy 172.72 80.01)
 		)
 		(stroke
@@ -3836,6 +4248,16 @@
 			(type default)
 		)
 		(uuid "648f3074-1d6e-425b-b760-fe77867c8708")
+	)
+	(wire
+		(pts
+			(xy 114.3 85.09) (xy 119.38 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6733b352-e31b-4412-af6a-5ab0ea2f4a10")
 	)
 	(wire
 		(pts
@@ -3899,6 +4321,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 166.37) (xy 133.35 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76aad38a-1891-42a6-980d-e8b73fee9e13")
+	)
+	(wire
+		(pts
 			(xy 30.48 35.56) (xy 30.48 39.37)
 		)
 		(stroke
@@ -3906,6 +4338,16 @@
 			(type default)
 		)
 		(uuid "7b944f7d-0269-463b-b283-6447e9c2650f")
+	)
+	(wire
+		(pts
+			(xy 149.86 167.64) (xy 153.67 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c072826-4d6e-4fc4-b2e0-2503a2b2d9ac")
 	)
 	(wire
 		(pts
@@ -3946,6 +4388,16 @@
 			(type default)
 		)
 		(uuid "86103ade-57c4-42af-b5bd-93bb6093819c")
+	)
+	(wire
+		(pts
+			(xy 128.27 166.37) (xy 130.81 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870ba836-1239-4b03-941e-350da9e1cee8")
 	)
 	(wire
 		(pts
@@ -4089,6 +4541,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 167.64) (xy 146.05 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b54f3529-fa61-4910-b064-9e790fa4f30f")
+	)
+	(wire
+		(pts
 			(xy 243.84 41.91) (xy 246.38 41.91)
 		)
 		(stroke
@@ -4116,6 +4578,16 @@
 			(type default)
 		)
 		(uuid "b5f52ab2-408d-4dee-a8d5-386860edb647")
+	)
+	(wire
+		(pts
+			(xy 146.05 176.53) (xy 146.05 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6967fd4-e3dc-4d95-b6ef-e22796be5908")
 	)
 	(wire
 		(pts
@@ -4209,6 +4681,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 168.91) (xy 133.35 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccaecdb5-1933-4ab8-a97f-a54cf5bbab49")
+	)
+	(wire
+		(pts
 			(xy 194.31 27.94) (xy 194.31 41.91)
 		)
 		(stroke
@@ -4269,6 +4751,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 167.64) (xy 146.05 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7509e38-a5e3-4ea7-939c-141a62ca11a3")
+	)
+	(wire
+		(pts
 			(xy 162.56 31.75) (xy 162.56 49.53)
 		)
 		(stroke
@@ -4326,6 +4818,16 @@
 			(type default)
 		)
 		(uuid "defbe722-9925-48a1-9334-ccf78334061d")
+	)
+	(wire
+		(pts
+			(xy 130.81 176.53) (xy 130.81 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfee39ee-9817-4821-b4fd-d3bbea09321e")
 	)
 	(wire
 		(pts
@@ -4396,6 +4898,16 @@
 			(type default)
 		)
 		(uuid "ef2f41a7-d486-4c2b-b4de-301cb8ccba0f")
+	)
+	(wire
+		(pts
+			(xy 130.81 166.37) (xy 130.81 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f096394c-c875-4f08-9826-9a358c9230aa")
 	)
 	(wire
 		(pts
@@ -4527,6 +5039,17 @@
 		)
 		(uuid "f2c42988-cfa7-433b-98ef-5a616ad694a4")
 	)
+	(hierarchical_label "RX_OUT2"
+		(shape input)
+		(at 114.3 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "202034c7-d3b5-431a-8423-28c5f97d9377")
+	)
 	(hierarchical_label "Orange_LED"
 		(shape output)
 		(at 137.16 45.72 90)
@@ -4570,6 +5093,17 @@
 			(justify right)
 		)
 		(uuid "66b733e7-4898-4873-addf-7dd1124d7433")
+	)
+	(hierarchical_label "RX_OUT"
+		(shape input)
+		(at 128.27 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a78b70b-067a-44bf-88ac-926a1535c976")
 	)
 	(hierarchical_label "Buzzer_volume"
 		(shape input)
@@ -4647,6 +5181,17 @@
 			(justify left)
 		)
 		(uuid "ace8a58a-a0d9-4522-b6fa-bbebfd72776a")
+	)
+	(hierarchical_label "Sense"
+		(shape output)
+		(at 114.3 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4e280d2-6691-4f88-98cd-700de48f5c51")
 	)
 	(hierarchical_label "3V3"
 		(shape input)
@@ -4889,6 +5434,182 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:74HC132D")
+		(at 128.27 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "092bb242-2163-4d4a-b46c-b68784c0a835")
+		(property "Reference" "IC10"
+			(at 139.7 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC132D"
+			(at 139.7 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-14N"
+			(at 149.86 262.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-NXP/DSANXP010001049.pdf"
+			(at 149.86 362.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "74HC132D, Logic Gate Quad 2 Input NAND, HC, 5.2mA 2 to 6V 14-Pin SOIC"
+			(at 128.27 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 149.86 562.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 149.86 662.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74HC132D"
+			(at 149.86 762.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "771-74HC132D"
+			(at 149.86 862.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC132D?qs=KBAwV6Cvgt1iOKY5zPSQTg%3D%3D"
+			(at 149.86 962.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 149.86 1062.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 149.86 1162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "2d4744e3-75b7-44cc-8d88-59497bfe092d")
+		)
+		(pin "5"
+			(uuid "6ebd2e76-2d72-4930-8e46-d40a9313c23d")
+		)
+		(pin "10"
+			(uuid "efee5fa1-4c24-4600-88e2-7df81a81f019")
+		)
+		(pin "11"
+			(uuid "bc1b383b-723b-4d6a-8d0c-eaf362026d13")
+		)
+		(pin "4"
+			(uuid "58d5eb46-6f0d-4749-8684-1d1e5c6de8cf")
+		)
+		(pin "9"
+			(uuid "439ce80b-b60d-4bb5-b8a2-dea83502cfa8")
+		)
+		(pin "12"
+			(uuid "bac443e5-f693-4054-9182-4641753d370f")
+		)
+		(pin "1"
+			(uuid "026cfb56-82b9-48ed-9713-01ada5ae3a7d")
+		)
+		(pin "3"
+			(uuid "308b8159-613d-45de-b73e-eafd72e78d21")
+		)
+		(pin "13"
+			(uuid "43d409ab-c9c4-49b1-a8e2-d1d7853fe63f")
+		)
+		(pin "2"
+			(uuid "8dbccc9a-7300-4920-b264-4e73b32bb6ed")
+		)
+		(pin "8"
+			(uuid "718c8d51-7a32-4ac1-9bb0-299a257efc28")
+		)
+		(pin "14"
+			(uuid "066b689f-8441-4624-9b16-e0809e3ed9ae")
+		)
+		(pin "6"
+			(uuid "f3ecaab3-04af-4a5a-a8a4-6b48da03d7e7")
+		)
+		(instances
+			(project ""
+				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/33d47bcc-c953-4082-8dd0-cd5a7c446f51"
+					(reference "IC10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:MCNDA-08V")
 		(at 217.805 29.21 0)
 		(unit 1)
@@ -5013,52 +5734,52 @@
 				(hide yes)
 			)
 		)
-		(pin "11"
+		(pin "A5"
 			(uuid "6836c87a-3651-4fc7-ac59-9371df4c5d2a")
 		)
-		(pin "3"
+		(pin "A7"
 			(uuid "4ccd5ca2-56c3-41ee-ba57-14977d813d1e")
 		)
-		(pin "1"
+		(pin "A6"
 			(uuid "d2cda446-6200-49cf-8bd9-28d15da9a445")
 		)
-		(pin "12"
+		(pin "B4"
 			(uuid "a15c166d-4cf0-480b-a7bb-c5fba171b0b7")
 		)
-		(pin "6"
+		(pin "B3"
 			(uuid "e3edb61b-fd8d-4a32-a7be-dd5eb1caa45f")
 		)
-		(pin "15"
+		(pin "A3"
 			(uuid "5d30005d-9b42-4fb6-9e9a-2585b60a31bf")
 		)
-		(pin "16"
+		(pin "B6"
 			(uuid "0705fa9b-3251-450a-ab5a-d618dd8420d2")
 		)
-		(pin "7"
+		(pin "A8"
 			(uuid "427e8945-6f14-4c17-8002-eb0974e11e55")
 		)
-		(pin "4"
+		(pin "B5"
 			(uuid "29c9d2e5-aa58-4c93-8346-1616cbc03ef0")
 		)
-		(pin "9"
+		(pin "A4"
 			(uuid "e61123ae-4eaf-46de-9391-70147ce975f6")
 		)
-		(pin "5"
+		(pin "B7"
 			(uuid "b761b7f3-34fd-4bd7-a896-273b26c00007")
 		)
-		(pin "14"
+		(pin "B8"
 			(uuid "8858ca27-a203-47c7-a88f-3222db15de7a")
 		)
-		(pin "10"
+		(pin "B2"
 			(uuid "399c5e72-7359-4f1f-9489-1ef8027796e6")
 		)
-		(pin "13"
+		(pin "A2"
 			(uuid "41269415-0a14-4b15-8124-e4121cf178ff")
 		)
-		(pin "2"
+		(pin "A1"
 			(uuid "67fcd434-77a0-4c16-8308-f82a4ca122e2")
 		)
-		(pin "8"
+		(pin "B1"
 			(uuid "31f8ef80-4247-49e1-a4ac-5ca6c5612d74")
 		)
 		(instances
@@ -5135,6 +5856,184 @@
 				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/33d47bcc-c953-4082-8dd0-cd5a7c446f51"
 					(reference "C28")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:74HC132D")
+		(at 43.18 177.8 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cca215f-2a42-43c2-8dc4-d3adaedb6ccf")
+		(property "Reference" "IC10"
+			(at 46.99 166.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "74HC132D"
+			(at 46.99 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-14N"
+			(at 138.1 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-NXP/DSANXP010001049.pdf"
+			(at 238.1 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "74HC132D, Logic Gate Quad 2 Input NAND, HC, 5.2mA 2 to 6V 14-Pin SOIC"
+			(at 43.18 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 438.1 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 538.1 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74HC132D"
+			(at 638.1 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "771-74HC132D"
+			(at 738.1 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC132D?qs=KBAwV6Cvgt1iOKY5zPSQTg%3D%3D"
+			(at 838.1 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 938.1 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1038.1 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "2d4744e3-75b7-44cc-8d88-59497bfe092d")
+		)
+		(pin "5"
+			(uuid "6ebd2e76-2d72-4930-8e46-d40a9313c23d")
+		)
+		(pin "10"
+			(uuid "efee5fa1-4c24-4600-88e2-7df81a81f019")
+		)
+		(pin "11"
+			(uuid "bc1b383b-723b-4d6a-8d0c-eaf362026d13")
+		)
+		(pin "4"
+			(uuid "58d5eb46-6f0d-4749-8684-1d1e5c6de8cf")
+		)
+		(pin "9"
+			(uuid "439ce80b-b60d-4bb5-b8a2-dea83502cfa8")
+		)
+		(pin "12"
+			(uuid "bac443e5-f693-4054-9182-4641753d370f")
+		)
+		(pin "1"
+			(uuid "026cfb56-82b9-48ed-9713-01ada5ae3a7d")
+		)
+		(pin "3"
+			(uuid "308b8159-613d-45de-b73e-eafd72e78d21")
+		)
+		(pin "13"
+			(uuid "43d409ab-c9c4-49b1-a8e2-d1d7853fe63f")
+		)
+		(pin "2"
+			(uuid "8dbccc9a-7300-4920-b264-4e73b32bb6ed")
+		)
+		(pin "8"
+			(uuid "718c8d51-7a32-4ac1-9bb0-299a257efc28")
+		)
+		(pin "14"
+			(uuid "066b689f-8441-4624-9b16-e0809e3ed9ae")
+		)
+		(pin "6"
+			(uuid "f3ecaab3-04af-4a5a-a8a4-6b48da03d7e7")
+		)
+		(instances
+			(project ""
+				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/33d47bcc-c953-4082-8dd0-cd5a7c446f51"
+					(reference "IC10")
+					(unit 3)
 				)
 			)
 		)
@@ -5784,6 +6683,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 153.67 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "693bf591-50d7-4e7a-b0e9-13233e8aedf7")
+		(property "Reference" "TP29"
+			(at 156.21 163.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 156.21 165.6079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 153.67 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8c27b39-2496-47ff-8fd3-10387666f04e")
+		)
+		(instances
+			(project "SD04Proto"
+				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/33d47bcc-c953-4082-8dd0-cd5a7c446f51"
+					(reference "TP29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 72.39 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5851,6 +6817,248 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 146.05 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73195c9b-9cc3-4163-b62c-cf0a04e70001")
+		(property "Reference" "#PWR0107"
+			(at 146.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ef66fc7-edca-44a7-9238-e90ba207d676")
+		)
+		(instances
+			(project "SD04Proto"
+				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/33d47bcc-c953-4082-8dd0-cd5a7c446f51"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:74HC132D")
+		(at 49.53 191.77 90)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fd61710-2d38-4261-b00f-b2f3f691f394")
+		(property "Reference" "IC10"
+			(at 49.8475 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC132D"
+			(at 49.8475 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-14N"
+			(at 144.45 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-NXP/DSANXP010001049.pdf"
+			(at 244.45 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "74HC132D, Logic Gate Quad 2 Input NAND, HC, 5.2mA 2 to 6V 14-Pin SOIC"
+			(at 49.53 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 444.45 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 544.45 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74HC132D"
+			(at 644.45 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "771-74HC132D"
+			(at 744.45 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC132D?qs=KBAwV6Cvgt1iOKY5zPSQTg%3D%3D"
+			(at 844.45 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 944.45 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1044.45 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "2d4744e3-75b7-44cc-8d88-59497bfe092d")
+		)
+		(pin "5"
+			(uuid "6ebd2e76-2d72-4930-8e46-d40a9313c23d")
+		)
+		(pin "10"
+			(uuid "efee5fa1-4c24-4600-88e2-7df81a81f019")
+		)
+		(pin "11"
+			(uuid "bc1b383b-723b-4d6a-8d0c-eaf362026d13")
+		)
+		(pin "4"
+			(uuid "58d5eb46-6f0d-4749-8684-1d1e5c6de8cf")
+		)
+		(pin "9"
+			(uuid "439ce80b-b60d-4bb5-b8a2-dea83502cfa8")
+		)
+		(pin "12"
+			(uuid "bac443e5-f693-4054-9182-4641753d370f")
+		)
+		(pin "1"
+			(uuid "026cfb56-82b9-48ed-9713-01ada5ae3a7d")
+		)
+		(pin "3"
+			(uuid "308b8159-613d-45de-b73e-eafd72e78d21")
+		)
+		(pin "13"
+			(uuid "43d409ab-c9c4-49b1-a8e2-d1d7853fe63f")
+		)
+		(pin "2"
+			(uuid "8dbccc9a-7300-4920-b264-4e73b32bb6ed")
+		)
+		(pin "8"
+			(uuid "718c8d51-7a32-4ac1-9bb0-299a257efc28")
+		)
+		(pin "14"
+			(uuid "066b689f-8441-4624-9b16-e0809e3ed9ae")
+		)
+		(pin "6"
+			(uuid "f3ecaab3-04af-4a5a-a8a4-6b48da03d7e7")
+		)
+		(instances
+			(project ""
+				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/33d47bcc-c953-4082-8dd0-cd5a7c446f51"
+					(reference "IC10")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 63.5 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5911,6 +7119,184 @@
 				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/33d47bcc-c953-4082-8dd0-cd5a7c446f51"
 					(reference "#PWR049")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:74HC132D")
+		(at 25.4 175.26 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "927aea1a-29b0-4d27-91ec-bbea134250cc")
+		(property "Reference" "IC10"
+			(at 29.21 165.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "74HC132D"
+			(at 29.21 167.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-14N"
+			(at 120.32 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-NXP/DSANXP010001049.pdf"
+			(at 220.32 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "74HC132D, Logic Gate Quad 2 Input NAND, HC, 5.2mA 2 to 6V 14-Pin SOIC"
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 420.32 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 520.32 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74HC132D"
+			(at 620.32 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "771-74HC132D"
+			(at 720.32 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC132D?qs=KBAwV6Cvgt1iOKY5zPSQTg%3D%3D"
+			(at 820.32 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 920.32 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1020.32 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "2d4744e3-75b7-44cc-8d88-59497bfe092d")
+		)
+		(pin "5"
+			(uuid "6ebd2e76-2d72-4930-8e46-d40a9313c23d")
+		)
+		(pin "10"
+			(uuid "efee5fa1-4c24-4600-88e2-7df81a81f019")
+		)
+		(pin "11"
+			(uuid "bc1b383b-723b-4d6a-8d0c-eaf362026d13")
+		)
+		(pin "4"
+			(uuid "58d5eb46-6f0d-4749-8684-1d1e5c6de8cf")
+		)
+		(pin "9"
+			(uuid "439ce80b-b60d-4bb5-b8a2-dea83502cfa8")
+		)
+		(pin "12"
+			(uuid "bac443e5-f693-4054-9182-4641753d370f")
+		)
+		(pin "1"
+			(uuid "026cfb56-82b9-48ed-9713-01ada5ae3a7d")
+		)
+		(pin "3"
+			(uuid "308b8159-613d-45de-b73e-eafd72e78d21")
+		)
+		(pin "13"
+			(uuid "43d409ab-c9c4-49b1-a8e2-d1d7853fe63f")
+		)
+		(pin "2"
+			(uuid "8dbccc9a-7300-4920-b264-4e73b32bb6ed")
+		)
+		(pin "8"
+			(uuid "718c8d51-7a32-4ac1-9bb0-299a257efc28")
+		)
+		(pin "14"
+			(uuid "066b689f-8441-4624-9b16-e0809e3ed9ae")
+		)
+		(pin "6"
+			(uuid "f3ecaab3-04af-4a5a-a8a4-6b48da03d7e7")
+		)
+		(instances
+			(project ""
+				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/33d47bcc-c953-4082-8dd0-cd5a7c446f51"
+					(reference "IC10")
+					(unit 2)
 				)
 			)
 		)
@@ -6044,6 +7430,73 @@
 			(project ""
 				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/33d47bcc-c953-4082-8dd0-cd5a7c446f51"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 153.67 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8906807-293e-42b4-8ffd-d375c095e279")
+		(property "Reference" "TP40"
+			(at 156.21 173.2279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 156.21 175.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 153.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec0f79e6-e7ab-40fd-b064-fe919a3a3758")
+		)
+		(instances
+			(project ""
+				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/33d47bcc-c953-4082-8dd0-cd5a7c446f51"
+					(reference "TP40")
 					(unit 1)
 				)
 			)
@@ -6205,7 +7658,6 @@
 		)
 	)
 	(symbol
-		(lib_name "EXBD10C103J_1")
 		(lib_id "SamacSys_Parts:EXBD10C103J")
 		(at 181.61 22.86 0)
 		(unit 1)
@@ -6371,6 +7823,253 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:74HC132D")
+		(at 25.4 193.04 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdf80e62-3a90-417f-bbc6-b829ef706564")
+		(property "Reference" "IC10"
+			(at 29.21 181.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "74HC132D"
+			(at 29.21 184.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-14N"
+			(at 120.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-NXP/DSANXP010001049.pdf"
+			(at 220.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "74HC132D, Logic Gate Quad 2 Input NAND, HC, 5.2mA 2 to 6V 14-Pin SOIC"
+			(at 25.4 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 420.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 520.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74HC132D"
+			(at 620.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "771-74HC132D"
+			(at 720.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC132D?qs=KBAwV6Cvgt1iOKY5zPSQTg%3D%3D"
+			(at 820.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 920.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1020.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "2d4744e3-75b7-44cc-8d88-59497bfe092d")
+		)
+		(pin "5"
+			(uuid "6ebd2e76-2d72-4930-8e46-d40a9313c23d")
+		)
+		(pin "10"
+			(uuid "efee5fa1-4c24-4600-88e2-7df81a81f019")
+		)
+		(pin "11"
+			(uuid "bc1b383b-723b-4d6a-8d0c-eaf362026d13")
+		)
+		(pin "4"
+			(uuid "58d5eb46-6f0d-4749-8684-1d1e5c6de8cf")
+		)
+		(pin "9"
+			(uuid "439ce80b-b60d-4bb5-b8a2-dea83502cfa8")
+		)
+		(pin "12"
+			(uuid "bac443e5-f693-4054-9182-4641753d370f")
+		)
+		(pin "1"
+			(uuid "026cfb56-82b9-48ed-9713-01ada5ae3a7d")
+		)
+		(pin "3"
+			(uuid "308b8159-613d-45de-b73e-eafd72e78d21")
+		)
+		(pin "13"
+			(uuid "43d409ab-c9c4-49b1-a8e2-d1d7853fe63f")
+		)
+		(pin "2"
+			(uuid "8dbccc9a-7300-4920-b264-4e73b32bb6ed")
+		)
+		(pin "8"
+			(uuid "718c8d51-7a32-4ac1-9bb0-299a257efc28")
+		)
+		(pin "14"
+			(uuid "066b689f-8441-4624-9b16-e0809e3ed9ae")
+		)
+		(pin "6"
+			(uuid "f3ecaab3-04af-4a5a-a8a4-6b48da03d7e7")
+		)
+		(instances
+			(project ""
+				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/33d47bcc-c953-4082-8dd0-cd5a7c446f51"
+					(reference "IC10")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 130.81 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2b40096-9136-4e1f-adce-67eed33fff6e")
+		(property "Reference" "C67"
+			(at 123.19 171.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33p"
+			(at 123.19 174.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 131.7752 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 130.81 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa02eaa0-ab66-4dc5-a0ed-c1ba003370ab")
+		)
+		(pin "2"
+			(uuid "c83afa21-3963-4f93-93ce-d4c0980de6d5")
+		)
+		(instances
+			(project "SD04Proto"
+				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/33d47bcc-c953-4082-8dd0-cd5a7c446f51"
+					(reference "C67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 25.4 30.48 0)
 		(unit 1)
@@ -6508,6 +8207,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 146.05 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dec3eb31-f1b1-4370-9a51-39eab04de0bc")
+		(property "Reference" "C68"
+			(at 149.098 171.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n"
+			(at 149.098 174.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.0152 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 146.05 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c81e098-577f-4bf3-81a9-31c1348d35d9")
+		)
+		(pin "2"
+			(uuid "bc65b334-3077-4f60-9273-b252ee38eb90")
+		)
+		(instances
+			(project "SD04Proto"
+				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/33d47bcc-c953-4082-8dd0-cd5a7c446f51"
+					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 30.48 48.26 0)
 		(unit 1)
@@ -6568,6 +8336,72 @@
 			(project ""
 				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/33d47bcc-c953-4082-8dd0-cd5a7c446f51"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee672d4d-510a-448b-af48-b7587f6a78d5")
+		(property "Reference" "#PWR0106"
+			(at 130.81 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ec4b905-756f-4cef-8cc6-5f3da8cd1fdc")
+		)
+		(instances
+			(project ""
+				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/33d47bcc-c953-4082-8dd0-cd5a7c446f51"
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
