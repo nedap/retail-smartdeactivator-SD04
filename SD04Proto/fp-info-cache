@@ -1,4 +1,4 @@
-24735605853036833
+24784608370717246
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91195,6 +91195,202 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SamacSys_Parts
+7447714220
+WE-PD_1030/105054
+Inductor
+0
+2
+2
+SamacSys_Parts
+13019502
+1301.9502-3
+Switch
+0
+4
+4
+SamacSys_Parts
+713085410
+71308-5410-2
+Connector
+0
+10
+10
+SamacSys_Parts
+1775254001
+1775254001-1
+Connector
+0
+6
+6
+SamacSys_Parts
+APT2012SECKJ3PRV
+APT2012SECK/J3-PRV-4
+LED
+0
+2
+2
+SamacSys_Parts
+AT1220TWT5VR
+AT-1220-TWT-5V-R-2
+Loudspeaker or Buzzer
+0
+2
+2
+SamacSys_Parts
+B32522N6105K000
+B32522N6105K000-2
+Capacitor
+0
+2
+2
+SamacSys_Parts
+BSC12DN20NS3G
+PG-TDSON-8_5
+MOSFET (N-Channel)
+0
+9
+9
+SamacSys_Parts
+DIOM5227X250N
+ES1C
+Diode
+0
+2
+2
+SamacSys_Parts
+ECH350R04P
+ECH350R-04P-4
+Connector
+0
+4
+4
+SamacSys_Parts
+EXBD10C103J
+1206 (3216M)
+Resistor Network
+0
+10
+10
+SamacSys_Parts
+G3VM351E
+G3VM-351E-9
+Relay or Contactor
+0
+6
+6
+SamacSys_Parts
+LEDC2012X110N
+2.0x1.25 SMT LED 1.1mm thickness
+LED
+0
+2
+2
+SamacSys_Parts
+MCNDA08V
+MCNDA-08V-1
+Switch
+0
+16
+16
+SamacSys_Parts
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+PG-TDSON-8_1
+PG-TDSON-8_1
+MOSFET (N-Channel)
+0
+9
+9
+SamacSys_Parts
+SL35290G321605070000
+SL 3.5/2/90G3.2 -1605070000-3
+Connector
+0
+2
+2
+SamacSys_Parts
+SOIC127P600X175-8N
+D0008A  SOIC
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+SOIC127P600X175-14N
+SOT108-1
+Integrated Circuit
+0
+14
+14
+SamacSys_Parts
+SOIC127P780X200-8N
+PS (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+SOP65P490X110-8N
+DGK
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+SOT65P210X110-5N
+SC70 1MM (C5)
+Integrated Circuit
+0
+5
+5
+SamacSys_Parts
+SOT95P230X110-3N
+SOT23***
+MOSFET (N-Channel)
+0
+3
+3
+SamacSys_Parts
+SOT95P275X110-5N
+TSOP−5+8
+Integrated Circuit
+0
+5
+5
+SamacSys_Parts
+SOT230P700X180-4N
+DCY (R-PDSO-G4)
+Undefined or Miscellaneous
+0
+4
+4
+SamacSys_Parts
+SOT254P916X480-6N
+PDIP6
+Phototransistor
+0
+6
+6
+SamacSys_Parts
+TE_284539-6
+
+
+0
+6
+6
+SamacSys_Parts
+WE-SL575
+WE-SL575
+Inductor
+0
+4
+4
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
