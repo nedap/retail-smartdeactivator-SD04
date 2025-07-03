@@ -586,6 +586,10 @@
       {
         "netclass": "Default",
         "pattern": ""
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Net-(Q3-S_2)"
       }
     ]
   },

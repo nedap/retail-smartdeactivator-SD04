@@ -1834,44 +1834,6 @@
 			(symbol "BSC12DN20NS3GATMA1_1_1"
 				(pin passive line
 					(at -6.35 0 0)
-					(length 5.08)
-					(hide yes)
-					(name "S_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 0 0)
-					(length 5.08)
-					(hide yes)
-					(name "S_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 0 0)
 					(length 2.54)
 					(name "G"
 						(effects
@@ -1910,7 +1872,7 @@
 					(at 1.27 5.08 270)
 					(length 2.54)
 					(hide yes)
-					(name "D_2"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1929,7 +1891,7 @@
 					(at 1.27 5.08 270)
 					(length 2.54)
 					(hide yes)
-					(name "D_3"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1948,7 +1910,7 @@
 					(at 1.27 5.08 270)
 					(length 2.54)
 					(hide yes)
-					(name "D_4"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1956,6 +1918,25 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "pad"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3780,6 +3761,16 @@
 		)
 		(uuid "3a831093-a94f-45c6-a621-85418d7e7a4d")
 	)
+	(label "1Mhz_Switch_Sig"
+		(at 107.95 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f59ca69-1240-49eb-976f-7ddaa8bf7441")
+	)
 	(label "Boost_FB"
 		(at 162.56 138.43 0)
 		(effects
@@ -5272,7 +5263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:PG-TDSON-8_1"
+		(property "Footprint" "PG-TDSON-8_1"
 			(at 113.03 215.57 0)
 			(effects
 				(font
@@ -5383,11 +5374,8 @@
 		(pin "1"
 			(uuid "a42c195a-a0ab-4760-acc8-ff5e09bbe531")
 		)
-		(pin "2"
+		(pin "9"
 			(uuid "f1e2fcf4-074c-4955-b6c9-967e22c0d34f")
-		)
-		(pin "3"
-			(uuid "88d9ae10-0b70-4ee1-b04c-17d3d024f84b")
 		)
 		(pin "4"
 			(uuid "8fc411aa-71d4-4a98-806a-aef4572339fd")
