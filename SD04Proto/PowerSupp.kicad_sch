@@ -9,6 +9,113 @@
 		(rev "0.01")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -255,6 +362,392 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ES1D_1"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ES1D"
+				(at -2.54 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "DIOM5227X250N"
+				(at -2.54 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ES1D-D.PDF"
+				(at -2.54 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Superfast recovery times for high efficiency.; For surface mount applications. ; Built-in strain relief. ; Glass passivated junction. ; Low profile package. ; Easy pick and place."
+				(at -13.97 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.5"
+				(at -2.54 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "onsemi"
+				(at -2.54 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ES1D"
+				(at -2.54 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "512-ES1D"
+				(at -2.54 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/ES1D?qs=3kCnFMRqPtFkJiNhvgRjIQ%3D%3D"
+				(at -2.54 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "ES1D"
+				(at -2.54 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/es1d/on-semiconductor?region=europe"
+				(at -2.54 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "ES1D_1_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ES1D_1_1_1"
+				(pin bidirectional line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:1605070000"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "1605070000"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "1605070000"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://catalog.weidmueller.com/catalog/Start.do?localeId=en&ObjectID=1605070000"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "PCB plug-in connector, male header, closed side, THT solder connection, 3.50 mm, Number of poles: 2, 90, Solder pin length: 3.2 mm, tinned, orange, Box"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "7.5"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Weidmuller"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "1605070000"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "470-1605070000"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Weidmuller/1605070000?qs=17SYzPGW6pooEV7lSzoyQg%3D%3D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "1605070000_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1557,10 +2050,28 @@
 		(uuid "f2e848a1-a422-49ea-912e-0bd4c9a48dca")
 	)
 	(junction
+		(at 30.48 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "060ab178-008d-481f-8e92-3d6ddd08a97e")
+	)
+	(junction
+		(at 48.26 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f6066ab-f65f-4af4-a554-8f08cb35bd64")
+	)
+	(junction
 		(at 165.1 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "554affcc-3a21-4251-93f0-f2f609b1f313")
+	)
+	(junction
+		(at 38.1 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62e2f30f-c298-405f-a959-acf793f59636")
 	)
 	(junction
 		(at 165.1 54.61)
@@ -1587,16 +2098,16 @@
 		(uuid "97cd96e5-ab88-4deb-9d95-a7e7cceebf81")
 	)
 	(junction
-		(at 43.18 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a530cb3-489b-4538-8ef0-03c0f58988fd")
-	)
-	(junction
 		(at 67.31 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c7ae5db-05df-4730-970f-09e91ab0f593")
+	)
+	(junction
+		(at 30.48 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4c39e92-3a23-4a19-a483-df1dbd15a978")
 	)
 	(junction
 		(at 81.28 113.03)
@@ -1617,10 +2128,16 @@
 		(uuid "ce1bd226-967a-4e96-8643-fb0db494f033")
 	)
 	(junction
-		(at 43.18 43.18)
+		(at 38.1 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f7ab3f99-c2e9-48bd-8fba-186439273d9b")
+		(uuid "e2ba24f8-3cd5-45ad-b878-091bd6b95f32")
+	)
+	(junction
+		(at 48.26 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb3ec2fd-420b-41a6-b4b3-a5b2ba6e1d9e")
 	)
 	(junction
 		(at 85.09 113.03)
@@ -1640,16 +2157,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 44.45) (xy 43.18 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03562287-b1d6-4328-a861-7fa9a75eab93")
-	)
-	(wire
-		(pts
 			(xy 58.42 129.54) (xy 58.42 130.81)
 		)
 		(stroke
@@ -1657,6 +2164,16 @@
 			(type default)
 		)
 		(uuid "04b8791c-df0c-446c-8861-b3546ad5eeb2")
+	)
+	(wire
+		(pts
+			(xy 19.05 40.64) (xy 19.05 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05163633-e3cf-4cee-a598-91d85e82dd6e")
 	)
 	(wire
 		(pts
@@ -1670,6 +2187,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 43.18) (xy 48.26 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ab0053-9f01-4e99-b26f-228d0ddaed52")
+	)
+	(wire
+		(pts
 			(xy 67.31 53.34) (xy 67.31 54.61)
 		)
 		(stroke
@@ -1680,7 +2207,17 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 52.07) (xy 43.18 53.34)
+			(xy 48.26 43.18) (xy 50.8 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ee53d74-561d-4e3a-b349-b729c6dc8c24")
+	)
+	(wire
+		(pts
+			(xy 48.26 52.07) (xy 48.26 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1700,6 +2237,26 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 53.34) (xy 48.26 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a589046-d301-455e-a31a-d501c8870261")
+	)
+	(wire
+		(pts
+			(xy 30.48 53.34) (xy 38.1 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c625e61-9d17-40c7-be54-e381b4506b03")
+	)
+	(wire
+		(pts
 			(xy 134.62 116.84) (xy 130.81 116.84)
 		)
 		(stroke
@@ -1707,6 +2264,16 @@
 			(type default)
 		)
 		(uuid "2dbdce07-b37f-45ca-b3b7-f7f10df33705")
+	)
+	(wire
+		(pts
+			(xy 30.48 55.88) (xy 30.48 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ae735d1-b8fc-4cc4-94ab-dad7f16d5261")
 	)
 	(wire
 		(pts
@@ -1770,6 +2337,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 53.34) (xy 50.8 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e3bab5a-66e0-4272-874e-ef36c1ceb74b")
+	)
+	(wire
+		(pts
 			(xy 50.8 50.8) (xy 50.8 53.34)
 		)
 		(stroke
@@ -1777,6 +2354,56 @@
 			(type default)
 		)
 		(uuid "5f924309-3475-4c3e-8a11-f96fecbd5084")
+	)
+	(wire
+		(pts
+			(xy 30.48 53.34) (xy 21.59 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60b4a93a-b28b-4b3d-9dd1-51447d64384e")
+	)
+	(wire
+		(pts
+			(xy 48.26 44.45) (xy 48.26 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a46ff96-ead8-426c-8f07-8cd1ad3dd852")
+	)
+	(wire
+		(pts
+			(xy 38.1 43.18) (xy 38.1 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b3cf7f1-d5c8-4f91-bbf0-7090492e29fa")
+	)
+	(wire
+		(pts
+			(xy 21.59 53.34) (xy 21.59 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dcca2c9-4de9-421b-80bf-d350c156384a")
+	)
+	(wire
+		(pts
+			(xy 30.48 40.64) (xy 30.48 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e296455-7a99-4136-9f18-428f6a441310")
 	)
 	(wire
 		(pts
@@ -1820,16 +2447,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 53.34) (xy 50.8 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b1f692e-6aa9-4c6c-b42f-cd16798d0bae")
-	)
-	(wire
-		(pts
 			(xy 165.1 54.61) (xy 165.1 55.88)
 		)
 		(stroke
@@ -1857,16 +2474,6 @@
 			(type default)
 		)
 		(uuid "8851efd5-1c28-4b9c-ab92-0d286d80c454")
-	)
-	(wire
-		(pts
-			(xy 43.18 43.18) (xy 50.8 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b026900-f993-4aaa-90e7-92c1fbfe580b")
 	)
 	(wire
 		(pts
@@ -2070,6 +2677,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 43.18) (xy 30.48 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dccc3c14-d1e5-437a-a0d3-231f2874aefa")
+	)
+	(wire
+		(pts
 			(xy 58.42 129.54) (xy 60.96 129.54)
 		)
 		(stroke
@@ -2090,13 +2707,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 53.34) (xy 43.18 53.34)
+			(xy 38.1 52.07) (xy 38.1 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4cf8949-3c2d-452d-b56b-0506a77b79ef")
+		(uuid "dff2dddd-3a2e-4982-9331-c8247a0644e4")
 	)
 	(wire
 		(pts
@@ -2140,13 +2757,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 43.18) (xy 43.18 43.18)
+			(xy 30.48 43.18) (xy 38.1 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fe8b99aa-b850-40cb-8441-c6263122dfc9")
+		(uuid "fb284b5b-8b10-4ba9-8008-41a45b7206cf")
 	)
 	(label "12V_Filt"
 		(at 123.19 44.45 180)
@@ -2181,12 +2798,12 @@
 	)
 	(hierarchical_label "12V"
 		(shape input)
-		(at 40.64 43.18 180)
+		(at 30.48 40.64 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6e2eeeea-b145-469f-81b9-7060be64dbbc")
 	)
@@ -2214,7 +2831,7 @@
 	)
 	(hierarchical_label "0V"
 		(shape input)
-		(at 40.64 53.34 180)
+		(at 30.48 55.88 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2688,7 +3305,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 43.18 48.26 180)
+		(at 48.26 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2696,7 +3313,7 @@
 		(dnp no)
 		(uuid "24df031d-93e5-43c7-b746-c26b79c3caa5")
 		(property "Reference" "C10"
-			(at 39.37 49.5301 0)
+			(at 45.974 48.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2705,7 +3322,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 39.37 46.9901 0)
+			(at 45.974 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2714,7 +3331,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 42.2148 44.45 0)
+			(at 47.2948 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2723,7 +3340,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 48.26 0)
+			(at 48.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2732,7 +3349,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 43.18 48.26 0)
+			(at 48.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3102,6 +3719,148 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:1605070000")
+		(at 19.05 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d9f4903-ee47-4e74-a2a0-9f289198f256")
+		(property "Reference" "J3"
+			(at 25.4 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1605070000"
+			(at 25.4 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "1605070000"
+			(at 113.97 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://catalog.weidmueller.com/catalog/Start.do?localeId=en&ObjectID=1605070000"
+			(at 213.97 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB plug-in connector, male header, closed side, THT solder connection, 3.50 mm, Number of poles: 2, 90, Solder pin length: 3.2 mm, tinned, orange, Box"
+			(at 19.05 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.5"
+			(at 413.97 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Weidmuller"
+			(at 513.97 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1605070000"
+			(at 613.97 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "470-1605070000"
+			(at 713.97 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Weidmuller/1605070000?qs=17SYzPGW6pooEV7lSzoyQg%3D%3D"
+			(at 813.97 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 913.97 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1013.97 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12d5aa01-6c4d-4fd7-85f0-d8c1d14e66df")
+		)
+		(pin "2"
+			(uuid "522b34bf-a40b-430a-9c6c-e39b9f02efc9")
+		)
+		(instances
+			(project ""
+				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/6dcfc107-39a7-4382-a82b-4a3b9ddee7cc"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 81.28 130.81 0)
 		(unit 1)
@@ -3247,6 +4006,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 38.1 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85f419ab-e392-46a6-8a7a-9ba93bf783d8")
+		(property "Reference" "TP11"
+			(at 36.068 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 36.068 37.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 38.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83f30a57-ff14-4229-9cc1-5dd640422745")
+		)
+		(instances
+			(project ""
+				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/6dcfc107-39a7-4382-a82b-4a3b9ddee7cc"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 67.31 48.26 0)
 		(unit 1)
@@ -3376,6 +4202,155 @@
 			(project "SD04Proto"
 				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/6dcfc107-39a7-4382-a82b-4a3b9ddee7cc"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "ES1D_1")
+		(lib_id "SamacSys_Parts:ES1D")
+		(at 38.1 48.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af05fa29-d2bd-4d13-8565-94dada861892")
+		(property "Reference" "D12"
+			(at 33.782 46.736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ES1D"
+			(at 34.29 48.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DIOM5227X250N"
+			(at -59.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ES1D-D.PDF"
+			(at -159.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Superfast recovery times for high efficiency.; For surface mount applications. ; Built-in strain relief. ; Glass passivated junction. ; Low profile package. ; Easy pick and place."
+			(at 38.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.5"
+			(at -359.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -459.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ES1D"
+			(at -559.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "512-ES1D"
+			(at -659.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/ES1D?qs=3kCnFMRqPtFkJiNhvgRjIQ%3D%3D"
+			(at -759.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "ES1D"
+			(at -859.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/es1d/on-semiconductor?region=europe"
+			(at -959.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Nedap Part Number" ""
+			(at 38.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c09765d-cf0e-4ff0-ae7a-c50191699870")
+		)
+		(pin "2"
+			(uuid "ff251e15-3717-4754-8a82-97e9ee9c6442")
+		)
+		(instances
+			(project "SD04Proto"
+				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/6dcfc107-39a7-4382-a82b-4a3b9ddee7cc"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -3656,7 +4631,7 @@
 		(dnp no)
 		(uuid "cfc4a5a4-cc93-4eec-aedb-4d28e396943e")
 		(property "Reference" "L2"
-			(at 51.816 39.878 0)
+			(at 51.816 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,7 +4639,7 @@
 			)
 		)
 		(property "Value" "744272221"
-			(at 56.134 42.418 0)
+			(at 56.134 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3784,6 +4759,73 @@
 			(project "SD04Proto"
 				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/6dcfc107-39a7-4382-a82b-4a3b9ddee7cc"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 38.1 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d55076a0-641f-48f0-9542-4e18cb5aae51")
+		(property "Reference" "TP12"
+			(at 40.132 59.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 40.132 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 38.1 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "165c9a15-b1f6-4f56-9826-abf24e63e7ad")
+		)
+		(instances
+			(project "SD04Proto"
+				(path "/fe3c7568-b616-4bc2-af46-d300844257d8/6dcfc107-39a7-4382-a82b-4a3b9ddee7cc"
+					(reference "TP12")
 					(unit 1)
 				)
 			)

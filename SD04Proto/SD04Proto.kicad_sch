@@ -9,7 +9,359 @@
 		(rev "0.01")
 		(company "Nedap N.V.")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:1837650000"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "1837650000"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "1837650000"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://catalog.weidmueller.com/catalog/Start.do?localeId=en_DE&ObjectID=1837650000"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "PCB plug-in connector, male header, Flange, THT/THR solder connection, 5.08 mm, Number of poles: 4, 90, Solder pin length: 3.2 mm, tinned, black, Box"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "8.4"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Weidmuller"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "1837650000"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "470-1837650000"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Weidmuller/1837650000?qs=WJDKaGZ8K%252B7osMODiRbS3g%3D%3D"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 19.05 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 19.05 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "1837650000_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
 	(junction
 		(at 78.74 34.29)
 		(diameter 0)
@@ -90,7 +442,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 181.61) (xy 17.78 38.1)
+			(xy 17.78 179.07) (xy 17.78 35.56)
 		)
 		(stroke
 			(width 0)
@@ -117,6 +469,16 @@
 			(type default)
 		)
 		(uuid "4b892cbe-740a-4325-8c92-c4ba0bade3f3")
+	)
+	(wire
+		(pts
+			(xy 257.81 121.92) (xy 255.27 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cab17f6-7847-4b28-a8a8-c4b3e69af3a7")
 	)
 	(wire
 		(pts
@@ -240,13 +602,33 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 176.53) (xy 19.05 35.56)
+			(xy 257.81 129.54) (xy 255.27 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a7e3677-15d5-4312-af9f-3679aa6cf618")
+	)
+	(wire
+		(pts
+			(xy 20.32 176.53) (xy 20.32 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9b7ed022-5698-45c9-bbb3-3c85149a8503")
+	)
+	(wire
+		(pts
+			(xy 255.27 129.54) (xy 255.27 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6eebe29-8f4c-4ed8-874d-134e285514d8")
 	)
 	(wire
 		(pts
@@ -267,6 +649,16 @@
 			(type default)
 		)
 		(uuid "ae57cbed-b3d2-46d9-9192-a3f79b118384")
+	)
+	(wire
+		(pts
+			(xy 255.27 121.92) (xy 255.27 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae925237-1ed3-43f5-a1d2-25055f14204a")
 	)
 	(wire
 		(pts
@@ -310,7 +702,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 35.56) (xy 26.67 35.56)
+			(xy 20.32 38.1) (xy 26.67 38.1)
 		)
 		(stroke
 			(width 0)
@@ -350,7 +742,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 176.53) (xy 19.05 176.53)
+			(xy 27.94 176.53) (xy 20.32 176.53)
 		)
 		(stroke
 			(width 0)
@@ -360,7 +752,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 38.1) (xy 26.67 38.1)
+			(xy 17.78 35.56) (xy 26.67 35.56)
 		)
 		(stroke
 			(width 0)
@@ -380,13 +772,297 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 181.61) (xy 17.78 181.61)
+			(xy 27.94 179.07) (xy 17.78 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ff9f2c46-0d80-4c67-b8af-1a21017624ef")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 255.27 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02f7d643-0241-4a6d-b205-b9268f12665f")
+		(property "Reference" "TP8"
+			(at 244.856 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 244.856 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 255.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79e72ccf-b4ab-4253-a8c2-1bd109e249a2")
+		)
+		(instances
+			(project ""
+				(path "/fe3c7568-b616-4bc2-af46-d300844257d8"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:1837650000")
+		(at 280.67 129.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fb10685-dac3-4a3d-a07b-40255ab3b321")
+		(property "Reference" "J4"
+			(at 269.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1837650000"
+			(at 269.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1837650000"
+			(at 261.62 34.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://catalog.weidmueller.com/catalog/Start.do?localeId=en_DE&ObjectID=1837650000"
+			(at 261.62 -65.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB plug-in connector, male header, Flange, THT/THR solder connection, 5.08 mm, Number of poles: 4, 90, Solder pin length: 3.2 mm, tinned, black, Box"
+			(at 280.67 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.4"
+			(at 261.62 -265.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Weidmuller"
+			(at 261.62 -365.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1837650000"
+			(at 261.62 -465.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "470-1837650000"
+			(at 261.62 -565.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Weidmuller/1837650000?qs=WJDKaGZ8K%252B7osMODiRbS3g%3D%3D"
+			(at 261.62 -665.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 261.62 -765.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 261.62 -865.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MH1"
+			(uuid "d89a6040-a52f-4f93-9cf5-fcb811900a61")
+		)
+		(pin "3"
+			(uuid "90f1a56d-b237-49ef-8276-aa64da3273e8")
+		)
+		(pin "1"
+			(uuid "0420224e-b5fb-498d-9090-cf4e6e846a54")
+		)
+		(pin "MH2"
+			(uuid "d57d90d0-e80c-45ae-9868-ad6859d7e43b")
+		)
+		(pin "2"
+			(uuid "8096dd0b-0359-46ea-967c-0dbb37847496")
+		)
+		(pin "4"
+			(uuid "575205e0-5e2d-432a-8d08-cd4e344f8ddd")
+		)
+		(instances
+			(project ""
+				(path "/fe3c7568-b616-4bc2-af46-d300844257d8"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 255.27 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57716e1f-e4c6-48b0-bb3f-b86f616eca2a")
+		(property "Reference" "TP13"
+			(at 243.332 132.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 243.332 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 255.27 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89df5c5d-4e29-470a-bcd0-f9af73caa735")
+		)
+		(instances
+			(project ""
+				(path "/fe3c7568-b616-4bc2-af46-d300844257d8"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 27.94 162.56)
@@ -472,7 +1148,7 @@
 			)
 		)
 		(pin "12V" input
-			(at 27.94 181.61 180)
+			(at 27.94 179.07 180)
 			(uuid "287f33a4-346a-4ce9-9417-a6663b4ad3a7")
 			(effects
 				(font
@@ -978,7 +1654,7 @@
 			)
 		)
 		(pin "12V" input
-			(at 26.67 38.1 180)
+			(at 26.67 35.56 180)
 			(uuid "3427fc70-11d2-4d25-8f85-bb48ec71e6d9")
 			(effects
 				(font
@@ -988,7 +1664,7 @@
 			)
 		)
 		(pin "0V" input
-			(at 26.67 35.56 180)
+			(at 26.67 38.1 180)
 			(uuid "0343aa09-c355-4ac3-8da6-38af7f005f13")
 			(effects
 				(font
