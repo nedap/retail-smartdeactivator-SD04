@@ -52,64 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "clearance|82150000|40750000|38477920-aeb7-473b-9102-a268e9696cf0|09c722ea-74b6-49d9-a0a9-eb7c980619dd",
-          ""
-        ],
-        [
-          "clearance|83483330|40750000|c4f36f22-fbcc-461f-9b44-f88cf5c0dc9f|09c722ea-74b6-49d9-a0a9-eb7c980619dd",
-          ""
-        ],
-        [
-          "clearance|84816660|40750000|d7ce7ee6-f171-499a-b2b8-75ab1c14136c|09c722ea-74b6-49d9-a0a9-eb7c980619dd",
-          ""
-        ],
-        [
-          "clearance|86149990|40750000|385f2560-9e4f-4a77-aa02-53200166dd0c|09c722ea-74b6-49d9-a0a9-eb7c980619dd",
-          ""
-        ],
-        [
-          "clearance|86500000|40750000|09c722ea-74b6-49d9-a0a9-eb7c980619dd|92638321-f123-4868-a7bf-3ecfdbf6b541",
-          "connected via footprint"
-        ],
-        [
-          "silk_edge_clearance|22500000|38050000|7ee65e17-b1dc-4ae7-a54b-b6c3c70ee712|eb287452-ba96-4788-a9ff-e51295782a53",
-          "silkscreen connector"
-        ],
-        [
-          "silk_edge_clearance|22500000|46450000|7ee65e17-b1dc-4ae7-a54b-b6c3c70ee712|ac888b5f-b262-4fd7-9f26-ff48e9eb1a4c",
-          "Silkscreen Connector"
-        ],
-        [
-          "solder_mask_bridge|82150000|40750000|38477920-aeb7-473b-9102-a268e9696cf0|09c722ea-74b6-49d9-a0a9-eb7c980619dd",
-          ""
-        ],
-        [
-          "solder_mask_bridge|83483330|40750000|c4f36f22-fbcc-461f-9b44-f88cf5c0dc9f|09c722ea-74b6-49d9-a0a9-eb7c980619dd",
-          ""
-        ],
-        [
-          "solder_mask_bridge|84816660|40750000|d7ce7ee6-f171-499a-b2b8-75ab1c14136c|09c722ea-74b6-49d9-a0a9-eb7c980619dd",
-          ""
-        ],
-        [
-          "solder_mask_bridge|86149990|40750000|385f2560-9e4f-4a77-aa02-53200166dd0c|09c722ea-74b6-49d9-a0a9-eb7c980619dd",
-          ""
-        ],
-        [
-          "unconnected_items|82500000|40692500|38477920-aeb7-473b-9102-a268e9696cf0|c4f36f22-fbcc-461f-9b44-f88cf5c0dc9f",
-          "connected via footprint"
-        ],
-        [
-          "unconnected_items|83833330|40692500|c4f36f22-fbcc-461f-9b44-f88cf5c0dc9f|d7ce7ee6-f171-499a-b2b8-75ab1c14136c",
-          "connected via footprint"
-        ],
-        [
-          "unconnected_items|85166660|40692500|d7ce7ee6-f171-499a-b2b8-75ab1c14136c|385f2560-9e4f-4a77-aa02-53200166dd0c",
-          "connected via footprint"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -536,7 +479,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.4,
         "via_diameter": 1.0,
         "via_drill": 0.5
       }
@@ -576,7 +519,7 @@
         "pattern": "GND"
       },
       {
-        "netclass": "Power",
+        "netclass": "Default",
         "pattern": "/Boost_converter/3V3"
       },
       {
